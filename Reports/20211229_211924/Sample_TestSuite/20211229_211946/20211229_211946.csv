@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample_TestSuite,Chrome 96.0.4664.110,,,2021-12-29 21:20:15,2021-12-29 21:20:51,35.267s,PASSED
+,,,,,,,
+Test Cases/Sample_TestCase,Chrome 96.0.4664.110,,,2021-12-29 21:20:16,2021-12-29 21:20:51,34.771s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-29 21:20:17,2021-12-29 21:20:21,3.885s,PASSED
+"navigateToUrl(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 96.0.4664.110,,,2021-12-29 21:20:21,2021-12-29 21:20:25,3.830s,PASSED
+"setText(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrm_d5fe3a""), Username)",Chrome 96.0.4664.110,,,2021-12-29 21:20:25,2021-12-29 21:20:27,2.284s,PASSED
+"setText(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrm_44e477""), Password)",Chrome 96.0.4664.110,,,2021-12-29 21:20:27,2021-12-29 21:20:28,0.768s,PASSED
+"click(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 96.0.4664.110,,,2021-12-29 21:20:28,2021-12-29 21:20:47,18.809s,PASSED
+"click(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Support Home/img_Account Validation Alert_img img-respon_9637b2""))",Chrome 96.0.4664.110,,,2021-12-29 21:20:47,2021-12-29 21:20:49,2.406s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_OR/Page_Support Home/div_My Account (1)""))",Chrome 96.0.4664.110,,,2021-12-29 21:20:49,2021-12-29 21:20:50,0.939s,PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-29 21:20:50,2021-12-29 21:20:51,0.706s,PASSED

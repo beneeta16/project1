@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-QuickLinks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f9358d6-b5e1-44f8-87b9-230f6e278acb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>acdda9a8-67f2-4a6a-ac8a-9c246e9b3f91</id>
+      <masked>false</masked>
+      <name>OptionToFind</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f0eafb4-f5f3-43ac-8fe7-77bc7857e307</id>
+      <masked>false</masked>
+      <name>titleToVerify</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>692382d6-dc06-457e-9502-656274b731f0</id>
+      <masked>false</masked>
+      <name>DocumentTypeToVerify</name>
+   </variable>
+</TestCaseEntity>

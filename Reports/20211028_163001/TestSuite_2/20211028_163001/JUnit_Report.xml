@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_2" time="341.41" tests="8" failures="0" errors="0">
+   <testsuite name="TestSuite_2" tests="8" failures="0" errors="0" time="341.41" skipped="0" timestamp="2021-10-28 16:30:12" hostname="HP - LAPTOP-EDP04F0V" id="Test Suites/TestSuite_2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211028_163001\\TestSuite_2\\20211028_163001"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211028_163001\\TestSuite_2\\20211028_163001\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - LAPTOP-EDP04F0V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5ad8ab0e7887187fd6ebd93bd7bbe336"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_4_Search_Functionality/1_Search_by_clicking_Search_Icon" time="42.103" classname="Test Cases/TestCase_4_Search_Functionality/1_Search_by_clicking_Search_Icon" status="PASSED">
+         <system-out><![CDATA[2021-10-28 16:30:13 - [TEST_CASE][PASSED] - Test Cases/TestCase_4_Search_Functionality/1_Search_by_clicking_Search_Icon: Test Cases/TestCase_4_Search_Functionality/1_Search_by_clicking_Search_Icon
+
+2021-10-28 16:30:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:30:13 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-28 16:30:14 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:30:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 16:30:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 16:30:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:30:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:30:24 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:30:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:30:24 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:30:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:30:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-28 16:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:30:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:30:47 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:30:47 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Searchbar_OR/MagnifyingGlass_Position")): Object: 'Object Repository/Searchbar_OR/MagnifyingGlass_Position' is clicked on
+
+2021-10-28 16:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Searchbar_OR/MagnifyingGlass_Position' is clicked on
+
+2021-10-28 16:30:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:30:54 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:30:54 - [TEST_STEP][PASSED] - expectedTitle = "Search Results": null
+
+2021-10-28 16:30:54 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'Search Results'
+
+2021-10-28 16:30:54 - [MESSAGE][PASSED] - Current window's title is: 'Search Results'
+
+2021-10-28 16:30:54 - [TEST_STEP][PASSED] - verifyMatch(actualTitle, expectedTitle, true): Actual text 'Search Results' and expected text 'Search Results' are matched  using regular expression
+
+2021-10-28 16:30:55 - [MESSAGE][PASSED] - Actual text 'Search Results' and expected text 'Search Results' are matched  using regular expression
+
+2021-10-28 16:30:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search_Result_Page_OR/ProductManual_word_location"), "product manuals"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ProductManual_word_location' are matched.
+
+2021-10-28 16:30:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ProductManual_word_location' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_4_Search_Functionality/2_Search_by_pressing_Enter" time="37.77" classname="Test Cases/TestCase_4_Search_Functionality/2_Search_by_pressing_Enter" status="PASSED">
+         <system-out><![CDATA[2021-10-28 16:30:55 - [TEST_CASE][PASSED] - Test Cases/TestCase_4_Search_Functionality/2_Search_by_pressing_Enter: Test Cases/TestCase_4_Search_Functionality/2_Search_by_pressing_Enter
+
+2021-10-28 16:30:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:30:55 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-28 16:30:55 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:30:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-28 16:30:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 16:30:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 16:31:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:31:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:31:05 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:31:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:31:05 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:31:05 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:31:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:31:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-28 16:31:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:31:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:31:25 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:31:26 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:31:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Searchbar_OR/Searchbar_position"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:31:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:31:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:31:32 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:31:32 - [TEST_STEP][PASSED] - expectedTitle = "Search Results": null
+
+2021-10-28 16:31:32 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'Search Results'
+
+2021-10-28 16:31:32 - [MESSAGE][PASSED] - Current window's title is: 'Search Results'
+
+2021-10-28 16:31:32 - [TEST_STEP][PASSED] - verifyMatch(actualTitle, expectedTitle, true): Actual text 'Search Results' and expected text 'Search Results' are matched  using regular expression
+
+2021-10-28 16:31:32 - [MESSAGE][PASSED] - Actual text 'Search Results' and expected text 'Search Results' are matched  using regular expression
+
+2021-10-28 16:31:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search_Result_Page_OR/ProductManual_word_location"), "product manuals"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ProductManual_word_location' are matched.
+
+2021-10-28 16:31:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ProductManual_word_location' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_4_Search_Functionality/3_Verify_OpeningOfNewTab_OnClick" time="48.323" classname="Test Cases/TestCase_4_Search_Functionality/3_Verify_OpeningOfNewTab_OnClick" status="PASSED">
+         <system-out><![CDATA[2021-10-28 16:31:33 - [TEST_CASE][PASSED] - Test Cases/TestCase_4_Search_Functionality/3_Verify_OpeningOfNewTab_OnClick: Test Cases/TestCase_4_Search_Functionality/3_Verify_OpeningOfNewTab_OnClick
+
+2021-10-28 16:31:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:31:33 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-28 16:31:33 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:31:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-28 16:31:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 16:31:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 16:31:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:31:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:31:42 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:31:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:31:43 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:32:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:32:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-28 16:32:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:32:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:32:03 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:32:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Searchbar_OR/Searchbar_position"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:32:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:32:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:32:10 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:32:10 - [TEST_STEP][PASSED] - linkTitle = getText(findTestObject("Object Repository/Search_Result_Page_OR/Search_Area")): Text of object 'Object Repository/Search_Result_Page_OR/Search_Area' is: 'Best practices for searching Cadence product manuals'
+
+2021-10-28 16:32:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Search_Area' is: 'Best practices for searching Cadence product manuals'
+
+2021-10-28 16:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/Search_Area")): Object: 'Object Repository/Search_Result_Page_OR/Search_Area' is clicked on
+
+2021-10-28 16:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Search_Area' is clicked on
+
+2021-10-28 16:32:11 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-10-28 16:32:11 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-10-28 16:32:11 - [TEST_STEP][PASSED] - windowTitle = getWindowTitle(): Current window's title is: 'Best practices for searching Cadence product manuals'
+
+2021-10-28 16:32:21 - [MESSAGE][PASSED] - Current window's title is: 'Best practices for searching Cadence product manuals'
+
+2021-10-28 16:32:21 - [TEST_STEP][PASSED] - verifyMatch(windowTitle, linkTitle, true): Actual text 'Best practices for searching Cadence product manuals' and expected text 'Best practices for searching Cadence product manuals' are matched  using regular expression
+
+2021-10-28 16:32:21 - [MESSAGE][PASSED] - Actual text 'Best practices for searching Cadence product manuals' and expected text 'Best practices for searching Cadence product manuals' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_4_Search_Functionality/4_Verify_Show_All_Attribute_button" time="40.965" classname="Test Cases/TestCase_4_Search_Functionality/4_Verify_Show_All_Attribute_button" status="PASSED">
+         <system-out><![CDATA[2021-10-28 16:32:21 - [TEST_CASE][PASSED] - Test Cases/TestCase_4_Search_Functionality/4_Verify_Show_All_Attribute_button: Test Cases/TestCase_4_Search_Functionality/4_Verify_Show_All_Attribute_button
+
+2021-10-28 16:32:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:32:21 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-28 16:32:21 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:32:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-28 16:32:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 16:32:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 16:32:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:32:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:32:30 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:32:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:32:31 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:32:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:32:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-28 16:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:32:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:32:50 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:32:51 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:32:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Searchbar_OR/Searchbar_position"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:32:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:32:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:32:57 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:32:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button"), STOP_ON_FAILURE): Object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is visible
+
+2021-10-28 16:32:58 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is visible
+
+2021-10-28 16:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-10-28 16:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-10-28 16:32:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button"), "Hide all attributes"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' are matched.
+
+2021-10-28 16:33:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' are matched.
+
+2021-10-28 16:33:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search_Result_Page_OR/Attribute_Table_location"), STOP_ON_FAILURE): Object 'Object Repository/Search_Result_Page_OR/Attribute_Table_location' is visible
+
+2021-10-28 16:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Attribute_Table_location' is visible
+
+2021-10-28 16:33:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Search_Result_Page_OR/Product_attribute_location"), "data-caption", "Product(s):", 20): Object 'Object Repository/Search_Result_Page_OR/Product_attribute_location' has attribute 'data-caption' with value 'Product(s):'
+
+2021-10-28 16:33:01 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Product_attribute_location' has attribute 'data-caption' with value 'Product(s):'
+
+2021-10-28 16:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-10-28 16:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-10-28 16:33:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button"), "Show all attributes"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' are matched.
+
+2021-10-28 16:33:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' are matched.
+
+2021-10-28 16:33:02 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Search_Result_Page_OR/Attribute_Table_location"), STOP_ON_FAILURE): Object 'Object Repository/Search_Result_Page_OR/Attribute_Table_location' is NOT visible
+
+2021-10-28 16:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Attribute_Table_location' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_4_Search_Functionality/5_Verify_Results_Per_Page" time="44.15" classname="Test Cases/TestCase_4_Search_Functionality/5_Verify_Results_Per_Page" status="PASSED">
+         <system-out><![CDATA[2021-10-28 16:33:02 - [TEST_CASE][PASSED] - Test Cases/TestCase_4_Search_Functionality/5_Verify_Results_Per_Page: Test Cases/TestCase_4_Search_Functionality/5_Verify_Results_Per_Page
+
+2021-10-28 16:33:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:33:02 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-28 16:33:02 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:33:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-28 16:33:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 16:33:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 16:33:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:33:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:33:11 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:33:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:33:12 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:33:12 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:33:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:33:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-28 16:33:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:33:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:33:30 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:33:31 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:33:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Searchbar_OR/Searchbar_position"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:33:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:33:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:33:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search_Result_Page_OR/Results_Per_Page_location"), STOP_ON_FAILURE): Object 'Object Repository/Search_Result_Page_OR/Results_Per_Page_location' is visible
+
+2021-10-28 16:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Results_Per_Page_location' is visible
+
+2021-10-28 16:33:38 - [TEST_STEP][PASSED] - resultNumber = ["10", "25", "50", "100"]: null
+
+2021-10-28 16:33:38 - [TEST_STEP][PASSED] - actualNumber = [getText(findTestObject("Search_Result_Page_OR/Result_Number/Result_Number_10")), getText(findTestObject("Search_Result_Page_OR/Result_Number/Result_Number_25")), getText(findTestObject("Search_Result_Page_OR/Result_Number/Result_Number_50")), getText(findTestObject("Search_Result_Page_OR/Result_Number/Result_Number_100"))]: Text of object 'Object Repository/Search_Result_Page_OR/Result_Number/Result_Number_100' is: '100'
+
+2021-10-28 16:33:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Result_Number/Result_Number_10' is: '10'
+
+2021-10-28 16:33:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Result_Number/Result_Number_25' is: '25'
+
+2021-10-28 16:33:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Result_Number/Result_Number_50' is: '50'
+
+2021-10-28 16:33:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Result_Number/Result_Number_100' is: '100'
+
+2021-10-28 16:33:40 - [TEST_STEP][PASSED] - for ([i = 0, i <= 3, (i++)]): Actual text '100' and expected text '100' are matched 
+
+2021-10-28 16:33:40 - [TEST_STEP][PASSED] - verifyMatch(actualNumber[i], resultNumber[i], false): Actual text '10' and expected text '10' are matched 
+
+2021-10-28 16:33:40 - [MESSAGE][PASSED] - Actual text '10' and expected text '10' are matched 
+
+2021-10-28 16:33:40 - [TEST_STEP][PASSED] - verifyMatch(actualNumber[i], resultNumber[i], false): Actual text '25' and expected text '25' are matched 
+
+2021-10-28 16:33:40 - [MESSAGE][PASSED] - Actual text '25' and expected text '25' are matched 
+
+2021-10-28 16:33:40 - [TEST_STEP][PASSED] - verifyMatch(actualNumber[i], resultNumber[i], false): Actual text '50' and expected text '50' are matched 
+
+2021-10-28 16:33:40 - [MESSAGE][PASSED] - Actual text '50' and expected text '50' are matched 
+
+2021-10-28 16:33:40 - [TEST_STEP][PASSED] - verifyMatch(actualNumber[i], resultNumber[i], false): Actual text '100' and expected text '100' are matched 
+
+2021-10-28 16:33:40 - [MESSAGE][PASSED] - Actual text '100' and expected text '100' are matched 
+
+2021-10-28 16:33:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Search_Result_Page_OR/Result_Number/Default_number_location"), "aria-checked", "true", 10): Object 'Object Repository/Search_Result_Page_OR/Result_Number/Default_number_location' has attribute 'aria-checked' with value 'true'
+
+2021-10-28 16:33:40 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Result_Number/Default_number_location' has attribute 'aria-checked' with value 'true'
+
+2021-10-28 16:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/Result_Number/Result_Number_10")): Object: 'Object Repository/Search_Result_Page_OR/Result_Number/Result_Number_10' is clicked on
+
+2021-10-28 16:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Result_Number/Result_Number_10' is clicked on
+
+2021-10-28 16:33:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:33:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search_Result_Page_OR/Result_summary_section"), "10"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Result_summary_section' are matched.
+
+2021-10-28 16:33:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Result_summary_section' are matched.
+
+2021-10-28 16:33:46 - [TEST_STEP][PASSED] - expectedNumber = 10: null
+
+2021-10-28 16:33:46 - [TEST_STEP][PASSED] - numberofLink = findWebElements(findTestObject("Object Repository/Search_Result_Page_OR/LinkLocation_on_Search_Result_Page"), 30): null
+
+2021-10-28 16:33:46 - [TEST_STEP][PASSED] - actualNumber = numberofLink.size(): null
+
+2021-10-28 16:33:46 - [TEST_STEP][PASSED] - verifyEqual(actualNumber, expectedNumber): Actual object '10' and expected object '10' are equal
+
+2021-10-28 16:33:46 - [MESSAGE][PASSED] - Actual object '10' and expected object '10' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_4_Search_Functionality/6_Verify_More_Pages" time="40.718" classname="Test Cases/TestCase_4_Search_Functionality/6_Verify_More_Pages" status="PASSED">
+         <system-out><![CDATA[2021-10-28 16:33:46 - [TEST_CASE][PASSED] - Test Cases/TestCase_4_Search_Functionality/6_Verify_More_Pages: Test Cases/TestCase_4_Search_Functionality/6_Verify_More_Pages
+
+2021-10-28 16:33:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:33:47 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-28 16:33:47 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:33:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-28 16:33:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 16:33:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 16:33:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:33:57 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:33:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:33:58 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:34:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-28 16:34:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:34:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:34:18 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:34:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Searchbar_OR/Searchbar_position"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:34:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:34:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:34:25 - [TEST_STEP][PASSED] - totalResult = getText(findTestObject("Object Repository/Search_Result_Page_OR/Total_number_of_results")): Text of object 'Object Repository/Search_Result_Page_OR/Total_number_of_results' is: '3,129'
+
+2021-10-28 16:34:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Total_number_of_results' is: '3,129'
+
+2021-10-28 16:34:26 - [TEST_STEP][PASSED] - resultperPage = getText(findTestObject("Object Repository/Search_Result_Page_OR/Result_summary_section")): Text of object 'Object Repository/Search_Result_Page_OR/Result_summary_section' is: '25'
+
+2021-10-28 16:34:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Result_summary_section' is: '25'
+
+2021-10-28 16:34:26 - [TEST_STEP][PASSED] - if (totalResult > resultperPage): Object 'Object Repository/Search_Result_Page_OR/Pagination_location' is visible
+
+2021-10-28 16:34:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Pagination_location")): Object 'Object Repository/Search_Result_Page_OR/Pagination_location' is visible
+
+2021-10-28 16:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Pagination_location' is visible
+
+2021-10-28 16:34:26 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Search_Result_Page_OR/Default_PageNo_location"), "aria-pressed", "true", 10): Object 'Object Repository/Search_Result_Page_OR/Default_PageNo_location' has attribute 'aria-pressed' with value 'true'
+
+2021-10-28 16:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Default_PageNo_location' has attribute 'aria-pressed' with value 'true']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_4_Search_Functionality/Verify_clicking_on_more_pages" time="43.7" classname="Test Cases/TestCase_4_Search_Functionality/Verify_clicking_on_more_pages" status="PASSED">
+         <system-out><![CDATA[2021-10-28 16:34:27 - [TEST_CASE][PASSED] - Test Cases/TestCase_4_Search_Functionality/Verify_clicking_on_more_pages: Test Cases/TestCase_4_Search_Functionality/Verify_clicking_on_more_pages
+
+2021-10-28 16:34:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:34:27 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-28 16:34:27 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:34:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-28 16:34:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 16:34:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 16:34:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:34:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:34:36 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:34:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:34:37 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:34:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:34:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-28 16:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:34:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:34:56 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:34:57 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:34:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Searchbar_OR/Searchbar_position"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:34:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:34:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:35:05 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:35:05 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/Page_2_location")): Object: 'Object Repository/Search_Result_Page_OR/Page_2_location' is clicked on
+
+2021-10-28 16:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Page_2_location' is clicked on
+
+2021-10-28 16:35:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:35:10 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:35:10 - [TEST_STEP][PASSED] - defaultpageNumber = findWebElement(findTestObject("Object Repository/Search_Result_Page_OR/Selected_result_number")).getText(): null
+
+2021-10-28 16:35:10 - [TEST_STEP][PASSED] - defaultNumber = defaultpageNumber.toInteger(): null
+
+2021-10-28 16:35:10 - [TEST_STEP][PASSED] - expected_search_result_Number = defaultNumber + 1.toString(): null
+
+2021-10-28 16:35:10 - [TEST_STEP][PASSED] - actual_search_result_Number = getText(findTestObject("Object Repository/Search_Result_Page_OR/Starting_search_result_number")): Text of object 'Object Repository/Search_Result_Page_OR/Starting_search_result_number' is: '26'
+
+2021-10-28 16:35:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Starting_search_result_number' is: '26'
+
+2021-10-28 16:35:11 - [TEST_STEP][PASSED] - verifyMatch(actual_search_result_Number, expected_search_result_Number, false): Actual text '26' and expected text '26' are matched 
+
+2021-10-28 16:35:11 - [MESSAGE][PASSED] - Actual text '26' and expected text '26' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_4_Search_Functionality/Verify_prev_next_button" time="41.443" classname="Test Cases/TestCase_4_Search_Functionality/Verify_prev_next_button" status="PASSED">
+         <system-out><![CDATA[2021-10-28 16:35:11 - [TEST_CASE][PASSED] - Test Cases/TestCase_4_Search_Functionality/Verify_prev_next_button: Test Cases/TestCase_4_Search_Functionality/Verify_prev_next_button
+
+2021-10-28 16:35:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:35:11 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-28 16:35:11 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:35:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-28 16:35:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-28 16:35:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-28 16:35:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-28 16:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:35:20 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-28 16:35:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:35:21 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-28 16:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-28 16:35:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:35:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-28 16:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-28 16:35:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-28 16:35:40 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:35:41 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:35:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Searchbar_OR/Searchbar_position"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:35:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-10-28 16:35:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/Page_2_location")): Object: 'Object Repository/Search_Result_Page_OR/Page_2_location' is clicked on
+
+2021-10-28 16:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Page_2_location' is clicked on
+
+2021-10-28 16:35:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:35:48 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-10-28 16:35:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search_Result_Page_OR/Previous_button_location"), STOP_ON_FAILURE): Object 'Object Repository/Search_Result_Page_OR/Previous_button_location' is visible
+
+2021-10-28 16:35:48 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Previous_button_location' is visible
+
+2021-10-28 16:35:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search_Result_Page_OR/Next_button_location"), STOP_ON_FAILURE): Object 'Object Repository/Search_Result_Page_OR/Next_button_location' is visible
+
+2021-10-28 16:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Next_button_location' is visible
+
+2021-10-28 16:35:49 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Search_Result_Page_OR/Page_2_location"), "aria-pressed", "true", 10): Object 'Object Repository/Search_Result_Page_OR/Page_2_location' has attribute 'aria-pressed' with value 'true'
+
+2021-10-28 16:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Page_2_location' has attribute 'aria-pressed' with value 'true'
+
+2021-10-28 16:35:49 - [TEST_STEP][PASSED] - currentpageNumber = getText(findTestObject("Object Repository/Search_Result_Page_OR/Page_2_location")): Text of object 'Object Repository/Search_Result_Page_OR/Page_2_location' is: '2'
+
+2021-10-28 16:35:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Page_2_location' is: '2'
+
+2021-10-28 16:35:50 - [TEST_STEP][PASSED] - convert_current_page_number = currentpageNumber.toInteger() - 1: null
+
+2021-10-28 16:35:50 - [TEST_STEP][PASSED] - expected_current_page_number = convert_current_page_number.toString(): null
+
+2021-10-28 16:35:50 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/Previous_button_location")): Object: 'Object Repository/Search_Result_Page_OR/Previous_button_location' is clicked on
+
+2021-10-28 16:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Previous_button_location' is clicked on
+
+2021-10-28 16:35:50 - [TEST_STEP][PASSED] - actual_current_page_number = findWebElement(findTestObject("Object Repository/Search_Result_Page_OR/Active_page_number")).getText(): null
+
+2021-10-28 16:35:52 - [TEST_STEP][PASSED] - verifyMatch(actual_current_page_number, expected_current_page_number, false): Actual text '1' and expected text '1' are matched 
+
+2021-10-28 16:35:52 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-28 16:30:12 - [TEST_SUITE][PASSED] - TestSuite_2: Test Cases/TestCase_4_Search_Functionality/Verify_prev_next_button]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

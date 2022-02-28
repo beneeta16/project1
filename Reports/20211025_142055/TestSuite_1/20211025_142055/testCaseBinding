@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/TestCase_1_Login","testCaseId":"Test Cases/TestCase_1_Login"}
+{"testCaseName":"Test Cases/TestCase_2_Dropdown/1_Verify_Default_Selected_Option","testCaseId":"Test Cases/TestCase_2_Dropdown/1_Verify_Default_Selected_Option"}
+{"testCaseName":"Test Cases/TestCase_2_Dropdown/2_Verify_AllOptions_Of_Dropdown","testCaseId":"Test Cases/TestCase_2_Dropdown/2_Verify_AllOptions_Of_Dropdown"}
+{"testCaseName":"Test Cases/TestCase_2_Dropdown/3_Verify_Selection_Of_Alloptions","testCaseId":"Test Cases/TestCase_2_Dropdown/3_Verify_Selection_Of_Alloptions"}
+{"testCaseName":"Test Cases/TestCase_3_Searchbox/1_Verify_SearchBar_Position","testCaseId":"Test Cases/TestCase_3_Searchbox/1_Verify_SearchBar_Position"}
+{"testCaseName":"Test Cases/TestCase_3_Searchbox/2_Verify_Searchbar_Placeholder","testCaseId":"Test Cases/TestCase_3_Searchbox/2_Verify_Searchbar_Placeholder"}
+{"testCaseName":"Test Cases/TestCase_3_Searchbox/3_Verify_Searchbar_Tooltip","testCaseId":"Test Cases/TestCase_3_Searchbox/3_Verify_Searchbar_Tooltip"}
+{"testCaseName":"Test Cases/TestCase_3_Searchbox/4_Verify_MagnifyingGlass_Icon","testCaseId":"Test Cases/TestCase_3_Searchbox/4_Verify_MagnifyingGlass_Icon"}

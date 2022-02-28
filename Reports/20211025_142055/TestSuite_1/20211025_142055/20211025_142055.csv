@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_1,Chrome 94.0.4606.81,,,2021-10-25 14:21:08,2021-10-25 14:25:11,4m - 3.271s,PASSED
+,,,,,,,
+Test Cases/TestCase_1_Login,Chrome 94.0.4606.81,,,2021-10-25 14:21:08,2021-10-25 14:21:38,30.510s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-25 14:21:08,2021-10-25 14:21:17,8.208s,PASSED
+"setText(findTestObject(""Login_OR/UserName_Field""), ""auto_swhostiduser1.en@cssotest.com"")",Chrome 94.0.4606.81,,,2021-10-25 14:21:17,2021-10-25 14:21:19,2.464s,PASSED
+"setText(findTestObject(""Login_OR/Password_Field""), ""Cadence123"")",Chrome 94.0.4606.81,,,2021-10-25 14:21:19,2021-10-25 14:21:20,0.704s,PASSED
+"click(findTestObject(""Login_OR/Login_Button_Field""))",Chrome 94.0.4606.81,,,2021-10-25 14:21:20,2021-10-25 14:21:36,16.287s,PASSED
+"verifyElementPresent(findTestObject(""Login_OR/UserLogo""), 0)",Chrome 94.0.4606.81,,,2021-10-25 14:21:36,2021-10-25 14:21:38,2.343s,PASSED
+,,,,,,,
+Test Cases/TestCase_2_Dropdown/1_Verify_Default_Selected_Option,Chrome 94.0.4606.81,,,2021-10-25 14:21:38,2021-10-25 14:22:08,29.751s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-25 14:21:39,2021-10-25 14:22:08,28.947s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Box_Position""), ""All Content"")",Chrome 94.0.4606.81,,,2021-10-25 14:22:08,2021-10-25 14:22:08,0.404s,PASSED
+,,,,,,,
+Test Cases/TestCase_2_Dropdown/2_Verify_AllOptions_Of_Dropdown,Chrome 94.0.4606.81,,,2021-10-25 14:22:08,2021-10-25 14:22:39,31.093s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-25 14:22:09,2021-10-25 14:22:36,27.339s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Box_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:22:36,2021-10-25 14:22:36,0.432s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Item1_Position""), ""All"")",Chrome 94.0.4606.81,,,2021-10-25 14:22:36,2021-10-25 14:22:37,0.701s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Item2_Position""), ""All Content"")",Chrome 94.0.4606.81,,,2021-10-25 14:22:37,2021-10-25 14:22:37,0.384s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Item3_Position""), ""Product Manuals"")",Chrome 94.0.4606.81,,,2021-10-25 14:22:37,2021-10-25 14:22:38,0.382s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Item4_Position""), ""Articles and AppNotes"")",Chrome 94.0.4606.81,,,2021-10-25 14:22:38,2021-10-25 14:22:38,0.371s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Item5_Position""), ""Training Courses"")",Chrome 94.0.4606.81,,,2021-10-25 14:22:38,2021-10-25 14:22:39,0.376s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Item6_Position""), ""Community"")",Chrome 94.0.4606.81,,,2021-10-25 14:22:39,2021-10-25 14:22:39,0.368s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Item7_Position""), ""Cases"")",Chrome 94.0.4606.81,,,2021-10-25 14:22:39,2021-10-25 14:22:39,0.362s,PASSED
+,,,,,,,
+Test Cases/TestCase_2_Dropdown/3_Verify_Selection_Of_Alloptions,Chrome 94.0.4606.81,,,2021-10-25 14:22:39,2021-10-25 14:23:20,40.365s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-25 14:22:40,2021-10-25 14:23:09,29.186s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Box_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:09,2021-10-25 14:23:09,0.446s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Item1_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:09,2021-10-25 14:23:10,0.730s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Box_Position""), ""All"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:10,2021-10-25 14:23:11,0.582s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Box_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:11,2021-10-25 14:23:11,0.410s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Item2_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:11,2021-10-25 14:23:12,0.527s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Box_Position""), ""All Content"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:12,2021-10-25 14:23:12,0.582s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Box_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:12,2021-10-25 14:23:13,0.377s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Item3_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:13,2021-10-25 14:23:13,0.523s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Box_Position""), ""Product Manuals"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:13,2021-10-25 14:23:14,0.555s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Box_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:14,2021-10-25 14:23:14,0.421s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Item4_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:14,2021-10-25 14:23:15,0.522s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Box_Position""), ""Articles and AppNotes"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:15,2021-10-25 14:23:15,0.575s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Box_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:15,2021-10-25 14:23:16,0.416s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Item5_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:16,2021-10-25 14:23:16,0.520s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Box_Position""), ""Training Courses"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:16,2021-10-25 14:23:17,0.574s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Box_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:17,2021-10-25 14:23:17,0.416s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Item6_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:17,2021-10-25 14:23:18,0.496s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Box_Position""), ""Community"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:18,2021-10-25 14:23:18,0.583s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Box_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:18,2021-10-25 14:23:19,0.393s,PASSED
+"click(findTestObject(""DropDown_OR/Dropdown_Item7_Position""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:19,2021-10-25 14:23:19,0.541s,PASSED
+"verifyElementText(findTestObject(""DropDown_OR/Dropdown_Box_Position""), ""Cases"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:19,2021-10-25 14:23:20,0.575s,PASSED
+,,,,,,,
+Test Cases/TestCase_3_Searchbox/1_Verify_SearchBar_Position,Chrome 94.0.4606.81,,,2021-10-25 14:23:20,2021-10-25 14:23:48,28.563s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:20,2021-10-25 14:23:27,6.552s,PASSED
+"setText(findTestObject(""Login_OR/UserName_Field""), ""auto_swhostiduser1.en@cssotest.com"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:27,2021-10-25 14:23:29,2.163s,PASSED
+"setText(findTestObject(""Login_OR/Password_Field""), ""Cadence123"")",Chrome 94.0.4606.81,,,2021-10-25 14:23:29,2021-10-25 14:23:29,0.688s,PASSED
+"click(findTestObject(""Login_OR/Login_Button_Field""))",Chrome 94.0.4606.81,,,2021-10-25 14:23:29,2021-10-25 14:23:46,16.673s,PASSED
+"verifyElementPresent(findTestObject(""Searchbox_OR/Searchbar_position""), 30)",Chrome 94.0.4606.81,,,2021-10-25 14:23:46,2021-10-25 14:23:48,2.129s,PASSED
+,,,,,,,
+Test Cases/TestCase_3_Searchbox/2_Verify_Searchbar_Placeholder,Chrome 94.0.4606.81,,,2021-10-25 14:23:48,2021-10-25 14:24:16,27.330s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-25 14:23:49,2021-10-25 14:24:15,26.534s,PASSED
+"expectedPlaceholder = ""Start your search here...""",Chrome 94.0.4606.81,,,2021-10-25 14:24:15,2021-10-25 14:24:15,0.000s,PASSED
+"placeholder = getAttribute(findTestObject(""Searchbox_OR/Searchbar_position""), ""placeholder"")",Chrome 94.0.4606.81,,,2021-10-25 14:24:15,2021-10-25 14:24:16,0.409s,PASSED
+if (expectedPlaceholder != placeholder),Chrome 94.0.4606.81,,,2021-10-25 14:24:16,2021-10-25 14:24:16,0.000s,PASSED
+,,,,,,,
+Test Cases/TestCase_3_Searchbox/3_Verify_Searchbar_Tooltip,Chrome 94.0.4606.81,,,2021-10-25 14:24:16,2021-10-25 14:24:43,27.094s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-25 14:24:16,2021-10-25 14:24:42,26.298s,PASSED
+"expectedTooltip = ""Insert a query. Press enter to send""",Chrome 94.0.4606.81,,,2021-10-25 14:24:42,2021-10-25 14:24:42,0.000s,PASSED
+"actualTooltip = getAttribute(findTestObject(""Searchbox_OR/Searchbar_position""), ""title"")",Chrome 94.0.4606.81,,,2021-10-25 14:24:42,2021-10-25 14:24:43,0.372s,PASSED
+"verifyMatch(actualTooltip, expectedTooltip, true)",Chrome 94.0.4606.81,,,2021-10-25 14:24:43,2021-10-25 14:24:43,0.012s,PASSED
+,,,,,,,
+Test Cases/TestCase_3_Searchbox/4_Verify_MagnifyingGlass_Icon,Chrome 94.0.4606.81,,,2021-10-25 14:24:43,2021-10-25 14:25:11,28.209s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 94.0.4606.81,,,2021-10-25 14:24:43,2021-10-25 14:25:10,27.483s,PASSED
+"verifyElementPresent(findTestObject(""Searchbox_OR/MagnifyingGlass_Position""), 0)",Chrome 94.0.4606.81,,,2021-10-25 14:25:10,2021-10-25 14:25:11,0.356s,PASSED

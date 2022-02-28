@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>E_learning_word_location</name>
+   <tag></tag>
+   <elementGuidId>620aed99-44e3-41e2-9131-17fed10d61ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;doc-widget-10&quot;]/doc-widget-course-catalog/ui-data-browser/div/div[2]/ui-data-browser-content/div/ui-carousel/div[2]/div/ui-carousel-item/ui-card-catalog-content/ui-card/div/ui-card-footer/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

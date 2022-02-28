@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "7E5BAB69BC2B049566EEBB948D3A8B35",
+  "keywordClasses": [
+    {
+      "name": "FileOperations",
+      "keywordMethods": [
+        {
+          "name": "Open_File",
+          "parameters": [
+            {
+              "name": "FilePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

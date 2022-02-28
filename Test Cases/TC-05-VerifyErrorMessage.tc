@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-05-VerifyErrorMessage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>accd29e1-cade-4b7d-bd86-3310b0938161</testCaseGuid>
+   <variable>
+      <defaultValue>'//*[@id=&quot;navbarCollapse&quot;]/ul/li[4]/div/ul/li[2]/a'</defaultValue>
+      <description></description>
+      <id>177235ef-a7e5-4ae7-98cb-8688d586f7e6</id>
+      <masked>false</masked>
+      <name>ErrorMessageXpath</name>
+   </variable>
+   <variable>
+      <defaultValue>'Error Messages'</defaultValue>
+      <description></description>
+      <id>720b03a2-0288-41b6-b510-39b9a8bbe749</id>
+      <masked>false</masked>
+      <name>Title2ToCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>'Troubleshooting Info'</defaultValue>
+      <description></description>
+      <id>6f634390-e834-4726-8a02-9edf32507879</id>
+      <masked>false</masked>
+      <name>DocumentType2ToCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_AllPlatforms\']'</defaultValue>
+      <description></description>
+      <id>6966dbda-a899-45dd-91d5-3ec53ff825ca</id>
+      <masked>false</masked>
+      <name>Facet_1ToCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>'All Platforms'</defaultValue>
+      <description></description>
+      <id>40cd007f-4ae0-4f00-97d4-0caa1506e744</id>
+      <masked>false</masked>
+      <name>TitleOfTheFacet1</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_AllPlatforms\']/ul/li'</defaultValue>
+      <description></description>
+      <id>cad721dc-f74e-4d4e-bfbb-2bcdba8c11f1</id>
+      <masked>false</masked>
+      <name>LinksOfTheFacet1</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_AllPlatforms\']/ul/li[4]'</defaultValue>
+      <description></description>
+      <id>8b92f2ad-696f-4d39-82a8-3e8743aa1dce</id>
+      <masked>false</masked>
+      <name>Facet1Link_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'verification'</defaultValue>
+      <description></description>
+      <id>6ad7c76a-34a3-4b60-943f-7a33969f232f</id>
+      <masked>false</masked>
+      <name>Text_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'VIP'</defaultValue>
+      <description></description>
+      <id>f7c64dd4-6f3a-4279-a5bc-b025b6e897c1</id>
+      <masked>false</masked>
+      <name>Text_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_Products\']'</defaultValue>
+      <description></description>
+      <id>22f447f4-7052-4481-8eee-bb26241c0f23</id>
+      <masked>false</masked>
+      <name>Facet_2ToCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>'All Products'</defaultValue>
+      <description></description>
+      <id>2bba9b80-eb42-415f-8555-ddff44d9207b</id>
+      <masked>false</masked>
+      <name>TitleOfTheFacet2</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_Products\']/ul/li'</defaultValue>
+      <description></description>
+      <id>cce56ec6-c922-4f13-8146-124b341935a4</id>
+      <masked>false</masked>
+      <name>LinksOfTheFacet2</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_Products\']/ul/li[1]'</defaultValue>
+      <description></description>
+      <id>19aa4c37-9b36-4b55-a927-b7d3617fe743</id>
+      <masked>false</masked>
+      <name>Facet2Link_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Xcelium'</defaultValue>
+      <description></description>
+      <id>81700c27-e5b5-46f2-9bc8-09c8e66e7d76</id>
+      <masked>false</masked>
+      <name>Text_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'XCELIUM'</defaultValue>
+      <description></description>
+      <id>d2acd8e4-7d82-4b65-83be-e203d006c3bc</id>
+      <masked>false</masked>
+      <name>Text_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_Tags\']'</defaultValue>
+      <description></description>
+      <id>825fa83f-1283-43be-afbd-64a244fb906a</id>
+      <masked>false</masked>
+      <name>Facet_3ToCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>'All Tags'</defaultValue>
+      <description></description>
+      <id>2943ae2e-af75-4390-83d3-191f15c86cfc</id>
+      <masked>false</masked>
+      <name>TitleOfTheFacet3</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_Tags\']/ul/li'</defaultValue>
+      <description></description>
+      <id>060e90dd-6931-4fb2-8ed1-5fe9b6d9f54c</id>
+      <masked>false</masked>
+      <name>LinksOfTheFacet3</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id = \'Facet_Tags\']/ul/li[2]'</defaultValue>
+      <description></description>
+      <id>970dd3aa-f302-4daf-8232-a48d16d69bb9</id>
+      <masked>false</masked>
+      <name>Facet3Link_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spectre'</defaultValue>
+      <description></description>
+      <id>206eb0f5-73ce-4cb1-9907-6da031ce7581</id>
+      <masked>false</masked>
+      <name>Text_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'SPECTRE'</defaultValue>
+      <description></description>
+      <id>a4a75ab2-efde-4e57-a730-b15b3421adeb</id>
+      <masked>false</masked>
+      <name>Text_6</name>
+   </variable>
+</TestCaseEntity>

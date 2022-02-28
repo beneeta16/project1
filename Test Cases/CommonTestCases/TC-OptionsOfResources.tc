@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-OptionsOfResources</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8a21cf8-5191-4d6a-92df-c95f64b12885</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c1f0798-6ce7-4832-a725-80d04bf06c2b</id>
+      <masked>false</masked>
+      <name>OptionToCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dda4e368-4eba-4403-b11e-7ddc89ab6f8b</id>
+      <masked>false</masked>
+      <name>TitleToCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b6409ce-37e0-42d9-87dc-9905e581ea23</id>
+      <masked>false</masked>
+      <name>DocumentTypeToCheck</name>
+   </variable>
+</TestCaseEntity>

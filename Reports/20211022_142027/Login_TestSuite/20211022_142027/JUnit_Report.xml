@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_TestSuite" time="125.702" tests="8" failures="0" errors="0">
+   <testsuite name="Login_TestSuite" tests="8" failures="0" errors="0" time="125.702" skipped="0" timestamp="2021-10-22 14:20:38" hostname="HP - LAPTOP-EDP04F0V" id="Test Suites/Login_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211022_142027\\Login_TestSuite\\20211022_142027"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211022_142027\\Login_TestSuite\\20211022_142027\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - LAPTOP-EDP04F0V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="2aba860d1f6b8e1d955c450154dbfc70"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_1" time="25.451" classname="Test Cases/TestCase_1" status="PASSED">
+         <system-out><![CDATA[2021-10-22 14:20:38 - [TEST_CASE][PASSED] - Test Cases/TestCase_1: Test Cases/TestCase_1
+
+2021-10-22 14:20:39 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:20:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 14:20:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 14:20:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:20:46 - [TEST_STEP][PASSED] - setText(findTestObject("Test_1_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Test_1_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:20:48 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Test_1_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:20:48 - [TEST_STEP][PASSED] - setText(findTestObject("Test_1_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Test_1_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:20:49 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Test_1_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Test_1_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114")): Object: 'Object Repository/Test_1_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_1_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_2" time="10.168" classname="Test Cases/TestCase_2" status="PASSED">
+         <system-out><![CDATA[2021-10-22 14:21:04 - [TEST_CASE][PASSED] - Test Cases/TestCase_2: Test Cases/TestCase_2
+
+2021-10-22 14:21:04 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-22 14:21:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 14:21:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 14:21:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:11 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114")): Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test_2_OR/Page_Cadence Login/li_Email and Password are required. Please try again"), 0): Object 'Object Repository/Test_2_OR/Page_Cadence Login/li_Email and Password are required. Please try again' is present
+
+2021-10-22 14:21:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-22 14:21:14 - [MESSAGE][PASSED] - Object 'Object Repository/Test_2_OR/Page_Cadence Login/li_Email and Password are required. Please try again' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_3" time="10.38" classname="Test Cases/TestCase_3" status="PASSED">
+         <system-out><![CDATA[2021-10-22 14:21:14 - [TEST_CASE][PASSED] - Test Cases/TestCase_3: Test Cases/TestCase_3
+
+2021-10-22 14:21:14 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-22 14:21:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 14:21:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 14:21:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:21 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:21:23 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114")): Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test_2_OR/Page_Cadence Login/li_Password is required. Please try again"), 0): Object 'Object Repository/Test_2_OR/Page_Cadence Login/li_Password is required. Please try again' is present
+
+2021-10-22 14:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-22 14:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/Test_2_OR/Page_Cadence Login/li_Password is required. Please try again' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_4" time="10.284" classname="Test Cases/TestCase_4" status="PASSED">
+         <system-out><![CDATA[2021-10-22 14:21:24 - [TEST_CASE][PASSED] - Test Cases/TestCase_4: Test Cases/TestCase_4
+
+2021-10-22 14:21:25 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-22 14:21:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 14:21:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 14:21:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:31 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:21:33 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114")): Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test_2_OR/Page_Cadence Login/li_Email is required. Please try again"), 0): Object 'Object Repository/Test_2_OR/Page_Cadence Login/li_Email is required. Please try again' is present
+
+2021-10-22 14:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-22 14:21:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test_2_OR/Page_Cadence Login/li_Email is required. Please try again' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_5" time="11.819" classname="Test Cases/TestCase_5" status="PASSED">
+         <system-out><![CDATA[2021-10-22 14:21:35 - [TEST_CASE][PASSED] - Test Cases/TestCase_5: Test Cases/TestCase_5
+
+2021-10-22 14:21:35 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-22 14:21:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 14:21:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 14:21:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:41 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:21:43 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107"), "Cadence124"): Text 'Cadence124' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:21:43 - [MESSAGE][PASSED] - Text 'Cadence124' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114")): Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:21:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid"), 0): Object 'Object Repository/Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid' is present
+
+2021-10-22 14:21:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-22 14:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_6" time="13.732" classname="Test Cases/TestCase_6" status="PASSED">
+         <system-out><![CDATA[2021-10-22 14:21:46 - [TEST_CASE][PASSED] - Test Cases/TestCase_6: Test Cases/TestCase_6
+
+2021-10-22 14:21:47 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-22 14:21:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 14:21:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 14:21:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:21:55 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt"), "auto_swhostiduser1.en@cssotesu.com"): Text 'auto_swhostiduser1.en@cssotesu.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:21:57 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotesu.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:21:57 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:21:57 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114")): Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:22:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid"), 0): Object 'Object Repository/Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid' is present
+
+2021-10-22 14:22:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-22 14:22:00 - [MESSAGE][PASSED] - Object 'Object Repository/Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_7" time="11.71" classname="Test Cases/TestCase_7" status="PASSED">
+         <system-out><![CDATA[2021-10-22 14:22:00 - [TEST_CASE][PASSED] - Test Cases/TestCase_7: Test Cases/TestCase_7
+
+2021-10-22 14:22:01 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:22:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-22 14:22:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 14:22:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 14:22:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:22:06 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt"), "auto_swhostiduser1.en@cssoteso.com"): Text 'auto_swhostiduser1.en@cssoteso.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:22:08 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssoteso.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:22:08 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107"), "Cadence124"): Text 'Cadence124' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:22:09 - [MESSAGE][PASSED] - Text 'Cadence124' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:22:09 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114")): Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:22:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid"), 0): Object 'Object Repository/Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid' is present
+
+2021-10-22 14:22:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-22 14:22:12 - [MESSAGE][PASSED] - Object 'Object Repository/Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_8" time="30.404" classname="Test Cases/TestCase_8" status="PASSED">
+         <system-out><![CDATA[2021-10-22 14:22:12 - [TEST_CASE][PASSED] - Test Cases/TestCase_8: Test Cases/TestCase_8
+
+2021-10-22 14:22:12 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:22:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-22 14:22:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 14:22:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 14:22:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-22 14:22:18 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:22:20 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt'
+
+2021-10-22 14:22:20 - [TEST_STEP][PASSED] - setText(findTestObject("Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:22:21 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107'
+
+2021-10-22 14:22:21 - [TEST_STEP][PASSED] - check(findTestObject("Test_2_OR/Test_3_OR/Page_Cadence Login/label_Remember me")): Object 'Object Repository/Test_2_OR/Test_3_OR/Page_Cadence Login/label_Remember me' is checked
+
+2021-10-22 14:22:21 - [MESSAGE][PASSED] - Object 'Object Repository/Test_2_OR/Test_3_OR/Page_Cadence Login/label_Remember me' is checked
+
+2021-10-22 14:22:21 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114")): Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114' is clicked on
+
+2021-10-22 14:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Test_3_OR/Page_Support Home/img_Account Validation Alert_img img-responsive col-xs-3  nopadding")): Object: 'Object Repository/Test_2_OR/Test_3_OR/Page_Support Home/img_Account Validation Alert_img img-responsive col-xs-3  nopadding' is clicked on
+
+2021-10-22 14:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Test_3_OR/Page_Support Home/img_Account Validation Alert_img img-responsive col-xs-3  nopadding' is clicked on
+
+2021-10-22 14:22:39 - [TEST_STEP][PASSED] - click(findTestObject("Test_2_OR/Test_3_OR/Page_Support Home/div_Logout")): Object: 'Object Repository/Test_2_OR/Test_3_OR/Page_Support Home/div_Logout' is clicked on
+
+2021-10-22 14:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_2_OR/Test_3_OR/Page_Support Home/div_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-22 14:20:38 - [TEST_SUITE][PASSED] - Login_TestSuite: Test Cases/TestCase_8]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

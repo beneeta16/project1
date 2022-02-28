@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample_TestSuite,Firefox 94.0,,,2021-12-29 20:48:33,2021-12-29 20:49:44,1m - 11.042s,PASSED
+,,,,,,,
+Test Cases/Sample_TestCase,Firefox 94.0,,,2021-12-29 20:48:33,2021-12-29 20:49:14,40.569s,PASSED
+"openBrowser("""")",Firefox 94.0,,,2021-12-29 20:48:34,2021-12-29 20:48:45,10.979s,PASSED
+"navigateToUrl(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Firefox 94.0,,,2021-12-29 20:48:45,2021-12-29 20:48:49,4.132s,PASSED
+"setText(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrm_d5fe3a""), ""auto_swhostiduser1.en@cssotest.com"")",Firefox 94.0,,,2021-12-29 20:48:49,2021-12-29 20:48:51,2.249s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrm_44e477""), ""NNnfzuesOJ+Y/ucBaoSabA=="")",Firefox 94.0,,,2021-12-29 20:48:51,2021-12-29 20:48:52,0.433s,PASSED
+"click(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Firefox 94.0,,,2021-12-29 20:48:52,2021-12-29 20:48:59,7.507s,PASSED
+"click(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Support Home/img_Account Validation Alert_img img-respon_9637b2""))",Firefox 94.0,,,2021-12-29 20:48:59,2021-12-29 20:49:12,12.339s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_OR/Page_Support Home/div_My Account (1)""))",Firefox 94.0,,,2021-12-29 20:49:12,2021-12-29 20:49:13,1.376s,PASSED
+closeBrowser(),Firefox 94.0,,,2021-12-29 20:49:13,2021-12-29 20:49:14,0.918s,PASSED
+,,,,,,,
+Test Cases/Sample_TestCase_2,Firefox 94.0,,,2021-12-29 20:49:14,2021-12-29 20:49:44,30.098s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Firefox 94.0,,,2021-12-29 20:49:14,2021-12-29 20:49:23,8.317s,PASSED
+"setText(findTestObject(""Sample_TestCase_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt""), ""auto_swhostiduser1.en@cssotest.com"")",Firefox 94.0,,,2021-12-29 20:49:23,2021-12-29 20:49:25,2.090s,PASSED
+"setText(findTestObject(""Sample_TestCase_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107""), ""Cadence123"")",Firefox 94.0,,,2021-12-29 20:49:25,2021-12-29 20:49:25,0.641s,PASSED
+"click(findTestObject(""Sample_TestCase_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Firefox 94.0,,,2021-12-29 20:49:25,2021-12-29 20:49:32,6.577s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_2_OR/Page_Support Home/img_Account Validation Alert_img img-responsive col-xs-3  nopadding""))",Firefox 94.0,,,2021-12-29 20:49:32,2021-12-29 20:49:39,6.663s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_2_OR/Page_Support Home/div_AllAll ContentProduct ManualsArticles and AppNotesTraining CoursesCommunityCasesAll Content""))",Firefox 94.0,,,2021-12-29 20:49:39,2021-12-29 20:49:41,2.079s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_2_OR/Page_Support Home/Searchbox""))",Firefox 94.0,,,2021-12-29 20:49:41,2021-12-29 20:49:42,0.788s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_2_OR/Page_Support Home/svg_Search""))",Firefox 94.0,,,2021-12-29 20:49:42,2021-12-29 20:49:43,1.641s,PASSED
+closeBrowser(),Firefox 94.0,,,2021-12-29 20:49:43,2021-12-29 20:49:44,0.891s,PASSED

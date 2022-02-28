@@ -1,0 +1,3131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_3" time="279.814" tests="7" failures="0" errors="0">
+   <testsuite name="TestSuite_3" tests="7" failures="0" errors="0" time="279.814" skipped="0" timestamp="2021-11-05 10:36:00" hostname="HP - LAPTOP-EDP04F0V" id="Test Suites/TestSuite_3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211105_103548\\TestSuite_3\\20211105_103548"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211105_103548\\TestSuite_3\\20211105_103548\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - LAPTOP-EDP04F0V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="333d70e3e23f3388c36e12f122e6e73a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_5_Verify_Copy_URL_from_AttributeTable" time="50.882" classname="Test Cases/TestCase_5_Verify_Copy_URL_from_AttributeTable" status="PASSED">
+         <system-out><![CDATA[2021-11-05 10:36:00 - [TEST_CASE][PASSED] - Test Cases/TestCase_5_Verify_Copy_URL_from_AttributeTable: Test Cases/TestCase_5_Verify_Copy_URL_from_AttributeTable
+
+2021-11-05 10:36:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:36:01 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-11-05 10:36:02 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login_Credentials").getValue(1, 1)): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:36:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 10:36:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 10:36:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), findTestData("Login_Credentials").getValue(2, 1)): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:36:12 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), findTestData("Login_Credentials").getValue(3, 1)): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:36:13 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:36:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 10:36:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:36:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:36:32 - [TEST_STEP][PASSED] - setText(findTestObject("Searchbar_OR/Searchbar_position"), "product manuals"): Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-11-05 10:36:33 - [MESSAGE][PASSED] - Text 'product manuals' is set on object 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-11-05 10:36:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Searchbar_OR/Searchbar_position"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-11-05 10:36:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Searchbar_OR/Searchbar_position'
+
+2021-11-05 10:36:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:36:40 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:36:40 - [TEST_STEP][PASSED] - click(findTestObject("i_button_OR/1st_i_button_location")): Object: 'Object Repository/i_button_OR/1st_i_button_location' is clicked on
+
+2021-11-05 10:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/i_button_OR/1st_i_button_location' is clicked on
+
+2021-11-05 10:36:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("i_button_OR/1st_attribute_table_location")): Object 'Object Repository/i_button_OR/1st_attribute_table_location' is visible
+
+2021-11-05 10:36:41 - [MESSAGE][PASSED] - Object 'Object Repository/i_button_OR/1st_attribute_table_location' is visible
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - expectedValue = false: null
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - for ([i = 1, i <= 24, (i++)]): null
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:41 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:42 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:43 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:44 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:45 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:46 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:47 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:48 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-05 10:36:49 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-05 10:36:49 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-05 10:36:49 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-05 10:36:49 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-05 10:36:49 - [TEST_STEP][PASSED] - title = getAttribute(findTestObject("Object Repository/Search_Result_Page_OR/1st_URL_location"), "title"): Attribute 'title' of object 'Object Repository/Search_Result_Page_OR/1st_URL_location' is: 'Best practices for searching Cadence product manuals'
+
+2021-11-05 10:36:49 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Search_Result_Page_OR/1st_URL_location' is: 'Best practices for searching Cadence product manuals'
+
+2021-11-05 10:36:49 - [TEST_STEP][PASSED] - url = getAttribute(findTestObject("Object Repository/Search_Result_Page_OR/1st_URL_location"), "href"): Attribute 'href' of object 'Object Repository/Search_Result_Page_OR/1st_URL_location' is: 'https://hfx-prd-cos.cs197.force.com/apex/ArticleAttachmentPortal?id=a1O3w00000ADj8IEAT&pageName=ArticleContent'
+
+2021-11-05 10:36:49 - [MESSAGE][PASSED] - Attribute 'href' of object 'Object Repository/Search_Result_Page_OR/1st_URL_location' is: 'https://hfx-prd-cos.cs197.force.com/apex/ArticleAttachmentPortal?id=a1O3w00000ADj8IEAT&pageName=ArticleContent'
+
+2021-11-05 10:36:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location"), "Copy Title/URL"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location' are matched.
+
+2021-11-05 10:36:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location' are matched.
+
+2021-11-05 10:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location")): Object: 'Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location' is clicked on
+
+2021-11-05 10:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location' is clicked on
+
+2021-11-05 10:36:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location"), "Copied!"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location' are matched.
+
+2021-11-05 10:36:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location' are matched.
+
+2021-11-05 10:36:51 - [TEST_STEP][PASSED] - data = getSystemClipboard().getData(stringFlavor): null
+
+2021-11-05 10:36:51 - [TEST_STEP][PASSED] - out.println(data): null
+
+2021-11-05 10:36:51 - [TEST_STEP][PASSED] - istitlePresent = data.contains(title): null
+
+2021-11-05 10:36:51 - [TEST_STEP][PASSED] - out.println(istitlePresent): null
+
+2021-11-05 10:36:51 - [TEST_STEP][PASSED] - isurlPresent = data.contains(url): null
+
+2021-11-05 10:36:51 - [TEST_STEP][PASSED] - out.println(istitlePresent): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_6_Verify_Installation_and_licensing" time="38.333" classname="Test Cases/TestCase_6_Verify_Installation_and_licensing" status="PASSED">
+         <system-out><![CDATA[2021-11-05 10:36:51 - [TEST_CASE][PASSED] - Test Cases/TestCase_6_Verify_Installation_and_licensing: Test Cases/TestCase_6_Verify_Installation_and_licensing
+
+2021-11-05 10:36:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:36:52 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-11-05 10:36:52 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login_Credentials").getValue(1, 1)): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:36:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 10:36:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 10:36:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 10:36:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:36:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), findTestData("Login_Credentials").getValue(2, 1)): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:37:00 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:37:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), findTestData("Login_Credentials").getValue(3, 1)): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:37:01 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:37:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 10:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:37:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:37:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Quick_Link_Section_OR/Quick_link_Section_location"), 5): Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:37:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:37:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Quick_Link_Section_OR/Installation_and_licensing_location")): Object 'Object Repository/Quick_Link_Section_OR/Installation_and_licensing_location' is visible
+
+2021-11-05 10:37:21 - [MESSAGE][PASSED] - Object 'Object Repository/Quick_Link_Section_OR/Installation_and_licensing_location' is visible
+
+2021-11-05 10:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Quick_Link_Section_OR/Installation_and_licensing_location")): Object: 'Object Repository/Quick_Link_Section_OR/Installation_and_licensing_location' is clicked on
+
+2021-11-05 10:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick_Link_Section_OR/Installation_and_licensing_location' is clicked on
+
+2021-11-05 10:37:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:37:26 - [TEST_STEP][PASSED] - expectedTitle = "Installation, Licensing and Configuration": null
+
+2021-11-05 10:37:26 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'Installation, Licensing and Configuration'
+
+2021-11-05 10:37:26 - [MESSAGE][PASSED] - Current window's title is: 'Installation, Licensing and Configuration'
+
+2021-11-05 10:37:26 - [TEST_STEP][PASSED] - verifyMatch(actualTitle, expectedTitle, true): Actual text 'Installation, Licensing and Configuration' and expected text 'Installation, Licensing and Configuration' are matched  using regular expression
+
+2021-11-05 10:37:26 - [MESSAGE][PASSED] - Actual text 'Installation, Licensing and Configuration' and expected text 'Installation, Licensing and Configuration' are matched  using regular expression
+
+2021-11-05 10:37:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/SearchCustomHeader_location"), "Installation, Licensing and Configuration"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-05 10:37:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-05 10:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-05 10:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-05 10:37:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-05 10:37:26 - [TEST_STEP][PASSED] - firstRow = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr/th")): null
+
+2021-11-05 10:37:27 - [TEST_STEP][PASSED] - productrowColumn = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[1]/td[1]")): null
+
+2021-11-05 10:37:27 - [TEST_STEP][PASSED] - thirdRow = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]")): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - documentColumn = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]")): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - totalcms = productrowColumn.size(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println(totalcms): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - for ([i = 0, i < totalcms, (i++)]): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:28 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - else: null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is not present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedText = "Product(s):": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualText = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isproductPresent = verifyMatch(actualText, expectedText, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isproductPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithproductrowColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - installationWord = ithproductrowColumn.contains("Installation and Licensing"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (installationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation and Licensing word is present"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Installation, Licensing & Configuration"): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:37:29 - [TEST_STEP][PASSED] - out.println("Installation, Licensing & Configuration word is present"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_7_Verify_Product_Manuals" time="42.686" classname="Test Cases/TestCase_7_Verify_Product_Manuals" status="PASSED">
+         <system-out><![CDATA[2021-11-05 10:37:29 - [TEST_CASE][PASSED] - Test Cases/TestCase_7_Verify_Product_Manuals: Test Cases/TestCase_7_Verify_Product_Manuals
+
+2021-11-05 10:37:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:37:30 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-11-05 10:37:30 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login_Credentials").getValue(1, 1)): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:37:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 10:37:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 10:37:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 10:37:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:37:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), findTestData("Login_Credentials").getValue(2, 1)): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:37:40 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:37:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), findTestData("Login_Credentials").getValue(3, 1)): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:37:41 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:37:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:37:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 10:38:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:38:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:38:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Quick_Link_Section_OR/Quick_link_Section_location"), 5): Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:38:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:38:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Quick_Link_Section_OR/Product_Manuals_Location")): Object 'Object Repository/Quick_Link_Section_OR/Product_Manuals_Location' is visible
+
+2021-11-05 10:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Quick_Link_Section_OR/Product_Manuals_Location' is visible
+
+2021-11-05 10:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick_Link_Section_OR/Product_Manuals_Location")): Object: 'Object Repository/Quick_Link_Section_OR/Product_Manuals_Location' is clicked on
+
+2021-11-05 10:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick_Link_Section_OR/Product_Manuals_Location' is clicked on
+
+2021-11-05 10:38:06 - [TEST_STEP][PASSED] - expectedTitle = "Product Manuals": null
+
+2021-11-05 10:38:06 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'Product Manuals'
+
+2021-11-05 10:38:06 - [MESSAGE][PASSED] - Current window's title is: 'Product Manuals'
+
+2021-11-05 10:38:06 - [TEST_STEP][PASSED] - verifyMatch(actualTitle, expectedTitle, true): Actual text 'Product Manuals' and expected text 'Product Manuals' are matched  using regular expression
+
+2021-11-05 10:38:06 - [MESSAGE][PASSED] - Actual text 'Product Manuals' and expected text 'Product Manuals' are matched  using regular expression
+
+2021-11-05 10:38:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/Product_Manual_at_Pagehead"), "Product Manuals"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Product_Manual_at_Pagehead' are matched.
+
+2021-11-05 10:38:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Product_Manual_at_Pagehead' are matched.
+
+2021-11-05 10:38:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Product_Manuals_release_links")): Object 'Object Repository/Search_Result_Page_OR/Product_Manuals_release_links' is visible
+
+2021-11-05 10:38:06 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Product_Manuals_release_links' is visible
+
+2021-11-05 10:38:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Result_Page_OR/Product_Manuals_release_links")): Object: 'Object Repository/Search_Result_Page_OR/Product_Manuals_release_links' is clicked on
+
+2021-11-05 10:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Product_Manuals_release_links' is clicked on
+
+2021-11-05 10:38:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Relevant_search")): Object 'Object Repository/Search_Result_Page_OR/Relevant_search' is visible
+
+2021-11-05 10:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Relevant_search' is visible
+
+2021-11-05 10:38:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Search_Result_Page_OR/Search_result_file_type"), "class", "fa fa-file-pdf-o", 10): Object 'Object Repository/Search_Result_Page_OR/Search_result_file_type' has attribute 'class' with value 'fa fa-file-pdf-o'
+
+2021-11-05 10:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_result_file_type' has attribute 'class' with value 'fa fa-file-pdf-o']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_8_Verify_Training_Courses" time="34.322" classname="Test Cases/TestCase_8_Verify_Training_Courses" status="PASSED">
+         <system-out><![CDATA[2021-11-05 10:38:12 - [TEST_CASE][PASSED] - Test Cases/TestCase_8_Verify_Training_Courses: Test Cases/TestCase_8_Verify_Training_Courses
+
+2021-11-05 10:38:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:38:13 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-11-05 10:38:13 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login_Credentials").getValue(1, 1)): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:38:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 10:38:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 10:38:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 10:38:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:38:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), findTestData("Login_Credentials").getValue(2, 1)): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:38:22 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), findTestData("Login_Credentials").getValue(3, 1)): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:38:23 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:38:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:38:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 10:38:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:38:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:38:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Quick_Link_Section_OR/Quick_link_Section_location"), 5): Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:38:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:38:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Quick_Link_Section_OR/Training_Courses_location")): Object 'Object Repository/Quick_Link_Section_OR/Training_Courses_location' is visible
+
+2021-11-05 10:38:41 - [MESSAGE][PASSED] - Object 'Object Repository/Quick_Link_Section_OR/Training_Courses_location' is visible
+
+2021-11-05 10:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick_Link_Section_OR/Training_Courses_location")): Object: 'Object Repository/Quick_Link_Section_OR/Training_Courses_location' is clicked on
+
+2021-11-05 10:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick_Link_Section_OR/Training_Courses_location' is clicked on
+
+2021-11-05 10:38:46 - [TEST_STEP][PASSED] - expectedTitle = "Training Courses": null
+
+2021-11-05 10:38:46 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'Training Courses'
+
+2021-11-05 10:38:46 - [MESSAGE][PASSED] - Current window's title is: 'Training Courses'
+
+2021-11-05 10:38:46 - [TEST_STEP][PASSED] - verifyMatch(actualTitle, expectedTitle, true): Actual text 'Training Courses' and expected text 'Training Courses' are matched  using regular expression
+
+2021-11-05 10:38:46 - [MESSAGE][PASSED] - Actual text 'Training Courses' and expected text 'Training Courses' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_9_Verify_Whats_New" time="37.373" classname="Test Cases/TestCase_9_Verify_Whats_New" status="PASSED">
+         <system-out><![CDATA[2021-11-05 10:38:46 - [TEST_CASE][PASSED] - Test Cases/TestCase_9_Verify_Whats_New: Test Cases/TestCase_9_Verify_Whats_New
+
+2021-11-05 10:38:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:38:47 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-11-05 10:38:47 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login_Credentials").getValue(1, 1)): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:38:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 10:38:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 10:38:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 10:38:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:38:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), findTestData("Login_Credentials").getValue(2, 1)): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:38:56 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:38:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), findTestData("Login_Credentials").getValue(3, 1)): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:38:57 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:39:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 10:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:39:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:39:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Quick_Link_Section_OR/Quick_link_Section_location"), 5): Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:39:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:39:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Quick_Link_Section_OR/Whats_New_location")): Object 'Object Repository/Quick_Link_Section_OR/Whats_New_location' is visible
+
+2021-11-05 10:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Quick_Link_Section_OR/Whats_New_location' is visible
+
+2021-11-05 10:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick_Link_Section_OR/Whats_New_location")): Object: 'Object Repository/Quick_Link_Section_OR/Whats_New_location' is clicked on
+
+2021-11-05 10:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick_Link_Section_OR/Whats_New_location' is clicked on
+
+2021-11-05 10:39:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:39:21 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:39:21 - [TEST_STEP][PASSED] - expectedTitle = "What's new": null
+
+2021-11-05 10:39:21 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'What's new'
+
+2021-11-05 10:39:21 - [MESSAGE][PASSED] - Current window's title is: 'What's new'
+
+2021-11-05 10:39:21 - [TEST_STEP][PASSED] - verifyMatch(actualTitle, expectedTitle, true): Actual text 'What's new' and expected text 'What's new' are matched  using regular expression
+
+2021-11-05 10:39:21 - [MESSAGE][PASSED] - Actual text 'What's new' and expected text 'What's new' are matched  using regular expression
+
+2021-11-05 10:39:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/SearchCustomHeader_location"), "What's new"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-05 10:39:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-05 10:39:22 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-05 10:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-05 10:39:22 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-05 10:39:22 - [TEST_STEP][PASSED] - thirdRow = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]")): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - documentColumn = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]")): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - totalcms = thirdRow.size(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println(totalcms): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - for ([i = 0, i < totalcms, (i++)]): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:23 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Whats New"): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - out.println("Whats New word is present"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_10_Verify_Troubleshooting_Information" time="38.409" classname="Test Cases/TestCase_10_Verify_Troubleshooting_Information" status="PASSED">
+         <system-out><![CDATA[2021-11-05 10:39:24 - [TEST_CASE][PASSED] - Test Cases/TestCase_10_Verify_Troubleshooting_Information: Test Cases/TestCase_10_Verify_Troubleshooting_Information
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:39:24 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-11-05 10:39:24 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login_Credentials").getValue(1, 1)): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:39:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 10:39:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 10:39:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 10:39:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:39:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), findTestData("Login_Credentials").getValue(2, 1)): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:39:33 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:39:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), findTestData("Login_Credentials").getValue(3, 1)): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:39:34 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:39:34 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:39:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:39:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 10:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:39:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:39:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Quick_Link_Section_OR/Quick_link_Section_location"), 5): Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:39:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:39:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Quick_Link_Section_OR/Troubleshooting_information_location")): Object 'Object Repository/Quick_Link_Section_OR/Troubleshooting_information_location' is visible
+
+2021-11-05 10:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/Quick_Link_Section_OR/Troubleshooting_information_location' is visible
+
+2021-11-05 10:39:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick_Link_Section_OR/Troubleshooting_information_location")): Object: 'Object Repository/Quick_Link_Section_OR/Troubleshooting_information_location' is clicked on
+
+2021-11-05 10:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick_Link_Section_OR/Troubleshooting_information_location' is clicked on
+
+2021-11-05 10:39:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:40:00 - [TEST_STEP][PASSED] - expectedTitle = "Troubleshooting Information": null
+
+2021-11-05 10:40:00 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'Troubleshooting Information'
+
+2021-11-05 10:40:00 - [MESSAGE][PASSED] - Current window's title is: 'Troubleshooting Information'
+
+2021-11-05 10:40:00 - [TEST_STEP][PASSED] - verifyMatch(actualTitle, expectedTitle, true): Actual text 'Troubleshooting Information' and expected text 'Troubleshooting Information' are matched  using regular expression
+
+2021-11-05 10:40:00 - [MESSAGE][PASSED] - Actual text 'Troubleshooting Information' and expected text 'Troubleshooting Information' are matched  using regular expression
+
+2021-11-05 10:40:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/SearchCustomHeader_location"), "Troubleshooting Information"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-05 10:40:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-05 10:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-05 10:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-05 10:40:01 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-05 10:40:01 - [TEST_STEP][PASSED] - thirdRow = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]")): null
+
+2021-11-05 10:40:01 - [TEST_STEP][PASSED] - documentColumn = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]")): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - totalcms = thirdRow.size(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println(totalcms): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - for ([i = 0, i < totalcms, (i++)]): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Troubleshooting Info"): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:02 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_11_Verify_Video_Library" time="35.698" classname="Test Cases/TestCase_11_Verify_Video_Library" status="PASSED">
+         <system-out><![CDATA[2021-11-05 10:40:02 - [TEST_CASE][PASSED] - Test Cases/TestCase_11_Verify_Video_Library: Test Cases/TestCase_11_Verify_Video_Library
+
+2021-11-05 10:40:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:40:03 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-11-05 10:40:03 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login_Credentials").getValue(1, 1)): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:40:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 10:40:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 10:40:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 10:40:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-05 10:40:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), findTestData("Login_Credentials").getValue(2, 1)): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:40:11 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-05 10:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), findTestData("Login_Credentials").getValue(3, 1)): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:40:12 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-05 10:40:12 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-05 10:40:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 10:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-05 10:40:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-05 10:40:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Quick_Link_Section_OR/Quick_link_Section_location"), 5): Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:40:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Quick_Link_Section_OR/Quick_link_Section_location' successfully
+
+2021-11-05 10:40:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Quick_Link_Section_OR/Video_Library_location")): Object 'Object Repository/Quick_Link_Section_OR/Video_Library_location' is visible
+
+2021-11-05 10:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Quick_Link_Section_OR/Video_Library_location' is visible
+
+2021-11-05 10:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick_Link_Section_OR/Video_Library_location")): Object: 'Object Repository/Quick_Link_Section_OR/Video_Library_location' is clicked on
+
+2021-11-05 10:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick_Link_Section_OR/Video_Library_location' is clicked on
+
+2021-11-05 10:40:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:40:36 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-05 10:40:36 - [TEST_STEP][PASSED] - expectedTitle = "Video Library": null
+
+2021-11-05 10:40:36 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'Video Library'
+
+2021-11-05 10:40:36 - [MESSAGE][PASSED] - Current window's title is: 'Video Library'
+
+2021-11-05 10:40:36 - [TEST_STEP][PASSED] - verifyMatch(actualTitle, expectedTitle, true): Actual text 'Video Library' and expected text 'Video Library' are matched  using regular expression
+
+2021-11-05 10:40:36 - [MESSAGE][PASSED] - Actual text 'Video Library' and expected text 'Video Library' are matched  using regular expression
+
+2021-11-05 10:40:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/SearchCustomHeader_location"), "Video Library"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-05 10:40:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-05 10:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-05 10:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-05 10:40:36 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-05 10:40:36 - [TEST_STEP][PASSED] - thirdRow = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]")): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - documentColumn = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]")): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - totalcms = thirdRow.size(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println(totalcms): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - for ([i = 0, i < totalcms, (i++)]): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:37 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - expectedWord = "Document type:": null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - actualWord = getText().toString(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - isdocumentPresent = verifyMatch(actualWord, expectedWord, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (isdocumentPresent == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - ithdocumentColumn = get(i).getText(): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - configurationWord = ithdocumentColumn.contains("Videos"): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - if (configurationWord == true): null
+
+2021-11-05 10:40:38 - [TEST_STEP][PASSED] - out.println("Troubleshooting Info word is present"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-05 10:36:00 - [TEST_SUITE][PASSED] - TestSuite_3: Test Cases/TestCase_11_Verify_Video_Library]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

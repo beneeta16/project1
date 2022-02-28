@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_TestSuite,Chrome 94.0.4606.81,,,2021-10-22 14:20:38,2021-10-22 14:22:42,2m - 4.308s,PASSED
+,,,,,,,
+Test Cases/TestCase_1,Chrome 94.0.4606.81,,,2021-10-22 14:20:38,2021-10-22 14:21:04,25.451s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-22 14:20:39,2021-10-22 14:20:46,7.198s,PASSED
+"setText(findTestObject(""Test_1_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt""), ""auto_swhostiduser1.en@cssotest.com"")",Chrome 94.0.4606.81,,,2021-10-22 14:20:46,2021-10-22 14:20:48,2.192s,PASSED
+"setText(findTestObject(""Test_1_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107""), ""Cadence123"")",Chrome 94.0.4606.81,,,2021-10-22 14:20:48,2021-10-22 14:20:49,0.723s,PASSED
+"click(findTestObject(""Test_1_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 94.0.4606.81,,,2021-10-22 14:20:49,2021-10-22 14:21:04,14.829s,PASSED
+,,,,,,,
+Test Cases/TestCase_2,Chrome 94.0.4606.81,,,2021-10-22 14:21:04,2021-10-22 14:21:14,10.168s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:04,2021-10-22 14:21:11,6.670s,PASSED
+"click(findTestObject(""Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 94.0.4606.81,,,2021-10-22 14:21:11,2021-10-22 14:21:13,2.389s,PASSED
+"verifyElementPresent(findTestObject(""Test_2_OR/Page_Cadence Login/li_Email and Password are required. Please try again""), 0)",Chrome 94.0.4606.81,,,2021-10-22 14:21:13,2021-10-22 14:21:14,0.704s,PASSED
+,,,,,,,
+Test Cases/TestCase_3,Chrome 94.0.4606.81,,,2021-10-22 14:21:14,2021-10-22 14:21:24,10.380s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:14,2021-10-22 14:21:21,6.250s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt""), ""auto_swhostiduser1.en@cssotest.com"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:21,2021-10-22 14:21:23,2.089s,PASSED
+"click(findTestObject(""Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 94.0.4606.81,,,2021-10-22 14:21:23,2021-10-22 14:21:24,0.957s,PASSED
+"verifyElementPresent(findTestObject(""Test_2_OR/Page_Cadence Login/li_Password is required. Please try again""), 0)",Chrome 94.0.4606.81,,,2021-10-22 14:21:24,2021-10-22 14:21:24,0.683s,PASSED
+,,,,,,,
+Test Cases/TestCase_4,Chrome 94.0.4606.81,,,2021-10-22 14:21:24,2021-10-22 14:21:35,10.284s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:25,2021-10-22 14:21:31,6.043s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107""), ""Cadence123"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:31,2021-10-22 14:21:33,2.030s,PASSED
+"click(findTestObject(""Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 94.0.4606.81,,,2021-10-22 14:21:33,2021-10-22 14:21:34,1.028s,PASSED
+"verifyElementPresent(findTestObject(""Test_2_OR/Page_Cadence Login/li_Email is required. Please try again""), 0)",Chrome 94.0.4606.81,,,2021-10-22 14:21:34,2021-10-22 14:21:35,0.704s,PASSED
+,,,,,,,
+Test Cases/TestCase_5,Chrome 94.0.4606.81,,,2021-10-22 14:21:35,2021-10-22 14:21:46,11.819s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:35,2021-10-22 14:21:41,5.489s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt""), ""auto_swhostiduser1.en@cssotest.com"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:41,2021-10-22 14:21:43,2.143s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107""), ""Cadence124"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:43,2021-10-22 14:21:43,0.694s,PASSED
+"click(findTestObject(""Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 94.0.4606.81,,,2021-10-22 14:21:43,2021-10-22 14:21:45,1.948s,PASSED
+"verifyElementPresent(findTestObject(""Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid""), 0)",Chrome 94.0.4606.81,,,2021-10-22 14:21:45,2021-10-22 14:21:46,1.136s,PASSED
+,,,,,,,
+Test Cases/TestCase_6,Chrome 94.0.4606.81,,,2021-10-22 14:21:46,2021-10-22 14:22:00,13.732s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:47,2021-10-22 14:21:55,7.817s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt""), ""auto_swhostiduser1.en@cssotesu.com"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:55,2021-10-22 14:21:57,2.056s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107""), ""Cadence123"")",Chrome 94.0.4606.81,,,2021-10-22 14:21:57,2021-10-22 14:21:57,0.698s,PASSED
+"click(findTestObject(""Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 94.0.4606.81,,,2021-10-22 14:21:57,2021-10-22 14:22:00,2.017s,PASSED
+"verifyElementPresent(findTestObject(""Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid""), 0)",Chrome 94.0.4606.81,,,2021-10-22 14:22:00,2021-10-22 14:22:00,0.686s,PASSED
+,,,,,,,
+Test Cases/TestCase_7,Chrome 94.0.4606.81,,,2021-10-22 14:22:00,2021-10-22 14:22:12,11.710s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-22 14:22:01,2021-10-22 14:22:06,5.626s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt""), ""auto_swhostiduser1.en@cssoteso.com"")",Chrome 94.0.4606.81,,,2021-10-22 14:22:06,2021-10-22 14:22:08,2.154s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107""), ""Cadence124"")",Chrome 94.0.4606.81,,,2021-10-22 14:22:08,2021-10-22 14:22:09,0.722s,PASSED
+"click(findTestObject(""Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 94.0.4606.81,,,2021-10-22 14:22:09,2021-10-22 14:22:11,1.753s,PASSED
+"verifyElementPresent(findTestObject(""Test_2_OR/Test_3_OR/Page_Cadence Login/span_Username or Password is not valid""), 0)",Chrome 94.0.4606.81,,,2021-10-22 14:22:11,2021-10-22 14:22:12,1.013s,PASSED
+,,,,,,,
+Test Cases/TestCase_8,Chrome 94.0.4606.81,,,2021-10-22 14:22:12,2021-10-22 14:22:42,30.404s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 94.0.4606.81,,,2021-10-22 14:22:12,2021-10-22 14:22:18,5.444s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt""), ""auto_swhostiduser1.en@cssotest.com"")",Chrome 94.0.4606.81,,,2021-10-22 14:22:18,2021-10-22 14:22:20,2.422s,PASSED
+"setText(findTestObject(""Test_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107""), ""Cadence123"")",Chrome 94.0.4606.81,,,2021-10-22 14:22:20,2021-10-22 14:22:21,0.702s,PASSED
+"check(findTestObject(""Test_2_OR/Test_3_OR/Page_Cadence Login/label_Remember me""))",Chrome 94.0.4606.81,,,2021-10-22 14:22:21,2021-10-22 14:22:21,0.402s,PASSED
+"click(findTestObject(""Test_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 94.0.4606.81,,,2021-10-22 14:22:21,2021-10-22 14:22:37,15.978s,PASSED
+"click(findTestObject(""Test_2_OR/Test_3_OR/Page_Support Home/img_Account Validation Alert_img img-responsive col-xs-3  nopadding""))",Chrome 94.0.4606.81,,,2021-10-22 14:22:37,2021-10-22 14:22:39,1.960s,PASSED
+"click(findTestObject(""Test_2_OR/Test_3_OR/Page_Support Home/div_Logout""))",Chrome 94.0.4606.81,,,2021-10-22 14:22:39,2021-10-22 14:22:42,3.092s,PASSED

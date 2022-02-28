@@ -1,0 +1,121 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_3,Chrome 95.0.4638.69,,,2021-11-05 10:36:00,2021-11-05 10:40:38,4m - 38.059s,PASSED
+,,,,,,,
+Test Cases/TestCase_5_Verify_Copy_URL_from_AttributeTable,Chrome 95.0.4638.69,,,2021-11-05 10:36:00,2021-11-05 10:36:51,50.882s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-05 10:36:01,2021-11-05 10:36:32,31.249s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.69,,,2021-11-05 10:36:32,2021-11-05 10:36:33,0.893s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbar_position""), Keys.chord(ENTER))",Chrome 95.0.4638.69,,,2021-11-05 10:36:33,2021-11-05 10:36:34,1.193s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:36:34,2021-11-05 10:36:40,5.432s,PASSED
+"click(findTestObject(""i_button_OR/1st_i_button_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:36:40,2021-11-05 10:36:40,0.439s,PASSED
+"verifyElementVisible(findTestObject(""i_button_OR/1st_attribute_table_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:36:40,2021-11-05 10:36:41,0.670s,PASSED
+driver = getWebDriver(),Chrome 95.0.4638.69,,,2021-11-05 10:36:41,2021-11-05 10:36:41,0.000s,PASSED
+expectedValue = false,Chrome 95.0.4638.69,,,2021-11-05 10:36:41,2021-11-05 10:36:41,0.001s,PASSED
+"for ([i = 1, i <= 24, (i++)])",Chrome 95.0.4638.69,,,2021-11-05 10:36:41,2021-11-05 10:36:49,7.826s,PASSED
+"title = getAttribute(findTestObject(""Object Repository/Search_Result_Page_OR/1st_URL_location""), ""title"")",Chrome 95.0.4638.69,,,2021-11-05 10:36:49,2021-11-05 10:36:49,0.413s,PASSED
+"url = getAttribute(findTestObject(""Object Repository/Search_Result_Page_OR/1st_URL_location""), ""href"")",Chrome 95.0.4638.69,,,2021-11-05 10:36:49,2021-11-05 10:36:49,0.386s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location""), ""Copy Title/URL"")",Chrome 95.0.4638.69,,,2021-11-05 10:36:49,2021-11-05 10:36:50,0.374s,PASSED
+"click(findTestObject(""Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:36:50,2021-11-05 10:36:50,0.456s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search_Result_Page_OR/1st_Copy_URL_link_location""), ""Copied!"")",Chrome 95.0.4638.69,,,2021-11-05 10:36:50,2021-11-05 10:36:51,0.497s,PASSED
+data = getSystemClipboard().getData(stringFlavor),Chrome 95.0.4638.69,,,2021-11-05 10:36:51,2021-11-05 10:36:51,0.320s,PASSED
+out.println(data),Chrome 95.0.4638.69,,,2021-11-05 10:36:51,2021-11-05 10:36:51,0.001s,PASSED
+istitlePresent = data.contains(title),Chrome 95.0.4638.69,,,2021-11-05 10:36:51,2021-11-05 10:36:51,0.000s,PASSED
+out.println(istitlePresent),Chrome 95.0.4638.69,,,2021-11-05 10:36:51,2021-11-05 10:36:51,0.000s,PASSED
+isurlPresent = data.contains(url),Chrome 95.0.4638.69,,,2021-11-05 10:36:51,2021-11-05 10:36:51,0.000s,PASSED
+out.println(istitlePresent),Chrome 95.0.4638.69,,,2021-11-05 10:36:51,2021-11-05 10:36:51,0.000s,PASSED
+,,,,,,,
+Test Cases/TestCase_6_Verify_Installation_and_licensing,Chrome 95.0.4638.69,,,2021-11-05 10:36:51,2021-11-05 10:37:29,38.333s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-05 10:36:52,2021-11-05 10:37:20,28.542s,PASSED
+"scrollToElement(findTestObject(""Quick_Link_Section_OR/Quick_link_Section_location""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:37:20,2021-11-05 10:37:21,0.349s,PASSED
+"verifyElementVisible(findTestObject(""Quick_Link_Section_OR/Installation_and_licensing_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:37:21,2021-11-05 10:37:21,0.384s,PASSED
+"click(findTestObject(""Quick_Link_Section_OR/Installation_and_licensing_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:37:21,2021-11-05 10:37:24,3.504s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:37:24,2021-11-05 10:37:26,1.081s,PASSED
+"expectedTitle = ""Installation, Licensing and Configuration""",Chrome 95.0.4638.69,,,2021-11-05 10:37:26,2021-11-05 10:37:26,0.001s,PASSED
+actualTitle = getWindowTitle(),Chrome 95.0.4638.69,,,2021-11-05 10:37:26,2021-11-05 10:37:26,0.011s,PASSED
+"verifyMatch(actualTitle, expectedTitle, true)",Chrome 95.0.4638.69,,,2021-11-05 10:37:26,2021-11-05 10:37:26,0.016s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search_Result_Page_OR/SearchCustomHeader_location""), ""Installation, Licensing and Configuration"")",Chrome 95.0.4638.69,,,2021-11-05 10:37:26,2021-11-05 10:37:26,0.416s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""))",Chrome 95.0.4638.69,,,2021-11-05 10:37:26,2021-11-05 10:37:26,0.417s,PASSED
+driver = getWebDriver(),Chrome 95.0.4638.69,,,2021-11-05 10:37:26,2021-11-05 10:37:26,0.000s,PASSED
+"firstRow = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr/th""))",Chrome 95.0.4638.69,,,2021-11-05 10:37:26,2021-11-05 10:37:27,0.532s,PASSED
+"productrowColumn = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[1]/td[1]""))",Chrome 95.0.4638.69,,,2021-11-05 10:37:27,2021-11-05 10:37:27,0.315s,PASSED
+"thirdRow = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]""))",Chrome 95.0.4638.69,,,2021-11-05 10:37:27,2021-11-05 10:37:28,0.299s,PASSED
+"documentColumn = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]""))",Chrome 95.0.4638.69,,,2021-11-05 10:37:28,2021-11-05 10:37:28,0.324s,PASSED
+totalcms = productrowColumn.size(),Chrome 95.0.4638.69,,,2021-11-05 10:37:28,2021-11-05 10:37:28,0.001s,PASSED
+out.println(totalcms),Chrome 95.0.4638.69,,,2021-11-05 10:37:28,2021-11-05 10:37:28,0.000s,PASSED
+"for ([i = 0, i < totalcms, (i++)])",Chrome 95.0.4638.69,,,2021-11-05 10:37:28,2021-11-05 10:37:29,1.567s,PASSED
+,,,,,,,
+Test Cases/TestCase_7_Verify_Product_Manuals,Chrome 95.0.4638.69,,,2021-11-05 10:37:29,2021-11-05 10:38:12,42.686s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-05 10:37:30,2021-11-05 10:38:00,30.291s,PASSED
+"scrollToElement(findTestObject(""Quick_Link_Section_OR/Quick_link_Section_location""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:38:00,2021-11-05 10:38:01,0.371s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Quick_Link_Section_OR/Product_Manuals_Location""))",Chrome 95.0.4638.69,,,2021-11-05 10:38:01,2021-11-05 10:38:01,0.404s,PASSED
+"click(findTestObject(""Object Repository/Quick_Link_Section_OR/Product_Manuals_Location""))",Chrome 95.0.4638.69,,,2021-11-05 10:38:01,2021-11-05 10:38:06,4.640s,PASSED
+"expectedTitle = ""Product Manuals""",Chrome 95.0.4638.69,,,2021-11-05 10:38:06,2021-11-05 10:38:06,0.001s,PASSED
+actualTitle = getWindowTitle(),Chrome 95.0.4638.69,,,2021-11-05 10:38:06,2021-11-05 10:38:06,0.014s,PASSED
+"verifyMatch(actualTitle, expectedTitle, true)",Chrome 95.0.4638.69,,,2021-11-05 10:38:06,2021-11-05 10:38:06,0.002s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search_Result_Page_OR/Product_Manual_at_Pagehead""), ""Product Manuals"")",Chrome 95.0.4638.69,,,2021-11-05 10:38:06,2021-11-05 10:38:06,0.372s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Search_Result_Page_OR/Product_Manuals_release_links""))",Chrome 95.0.4638.69,,,2021-11-05 10:38:06,2021-11-05 10:38:06,0.383s,PASSED
+"click(findTestObject(""Object Repository/Search_Result_Page_OR/Product_Manuals_release_links""))",Chrome 95.0.4638.69,,,2021-11-05 10:38:06,2021-11-05 10:38:09,2.944s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Search_Result_Page_OR/Relevant_search""))",Chrome 95.0.4638.69,,,2021-11-05 10:38:09,2021-11-05 10:38:12,2.374s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Search_Result_Page_OR/Search_result_file_type""), ""class"", ""fa fa-file-pdf-o"", 10)",Chrome 95.0.4638.69,,,2021-11-05 10:38:12,2021-11-05 10:38:12,0.390s,PASSED
+,,,,,,,
+Test Cases/TestCase_8_Verify_Training_Courses,Chrome 95.0.4638.69,,,2021-11-05 10:38:12,2021-11-05 10:38:46,34.322s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-05 10:38:13,2021-11-05 10:38:40,27.636s,PASSED
+"scrollToElement(findTestObject(""Quick_Link_Section_OR/Quick_link_Section_location""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:38:40,2021-11-05 10:38:41,0.358s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Quick_Link_Section_OR/Training_Courses_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:38:41,2021-11-05 10:38:41,0.390s,PASSED
+"click(findTestObject(""Object Repository/Quick_Link_Section_OR/Training_Courses_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:38:41,2021-11-05 10:38:46,5.481s,PASSED
+"expectedTitle = ""Training Courses""",Chrome 95.0.4638.69,,,2021-11-05 10:38:46,2021-11-05 10:38:46,0.000s,PASSED
+actualTitle = getWindowTitle(),Chrome 95.0.4638.69,,,2021-11-05 10:38:46,2021-11-05 10:38:46,0.010s,PASSED
+"verifyMatch(actualTitle, expectedTitle, true)",Chrome 95.0.4638.69,,,2021-11-05 10:38:46,2021-11-05 10:38:46,0.001s,PASSED
+,,,,,,,
+Test Cases/TestCase_9_Verify_Whats_New,Chrome 95.0.4638.69,,,2021-11-05 10:38:46,2021-11-05 10:39:24,37.373s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-05 10:38:47,2021-11-05 10:39:15,28.283s,PASSED
+"scrollToElement(findTestObject(""Quick_Link_Section_OR/Quick_link_Section_location""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:39:15,2021-11-05 10:39:16,0.386s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Quick_Link_Section_OR/Whats_New_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:39:16,2021-11-05 10:39:16,0.407s,PASSED
+"click(findTestObject(""Object Repository/Quick_Link_Section_OR/Whats_New_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:39:16,2021-11-05 10:39:20,4.340s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:39:20,2021-11-05 10:39:21,1.089s,PASSED
+"expectedTitle = ""What's new""",Chrome 95.0.4638.69,,,2021-11-05 10:39:21,2021-11-05 10:39:21,0.000s,PASSED
+actualTitle = getWindowTitle(),Chrome 95.0.4638.69,,,2021-11-05 10:39:21,2021-11-05 10:39:21,0.006s,PASSED
+"verifyMatch(actualTitle, expectedTitle, true)",Chrome 95.0.4638.69,,,2021-11-05 10:39:21,2021-11-05 10:39:21,0.000s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search_Result_Page_OR/SearchCustomHeader_location""), ""What's new"")",Chrome 95.0.4638.69,,,2021-11-05 10:39:21,2021-11-05 10:39:22,0.411s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""))",Chrome 95.0.4638.69,,,2021-11-05 10:39:22,2021-11-05 10:39:22,0.412s,PASSED
+driver = getWebDriver(),Chrome 95.0.4638.69,,,2021-11-05 10:39:22,2021-11-05 10:39:22,0.001s,PASSED
+"thirdRow = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]""))",Chrome 95.0.4638.69,,,2021-11-05 10:39:22,2021-11-05 10:39:23,0.525s,PASSED
+"documentColumn = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]""))",Chrome 95.0.4638.69,,,2021-11-05 10:39:23,2021-11-05 10:39:23,0.291s,PASSED
+totalcms = thirdRow.size(),Chrome 95.0.4638.69,,,2021-11-05 10:39:23,2021-11-05 10:39:23,0.000s,PASSED
+out.println(totalcms),Chrome 95.0.4638.69,,,2021-11-05 10:39:23,2021-11-05 10:39:23,0.000s,PASSED
+"for ([i = 0, i < totalcms, (i++)])",Chrome 95.0.4638.69,,,2021-11-05 10:39:23,2021-11-05 10:39:24,0.683s,PASSED
+,,,,,,,
+Test Cases/TestCase_10_Verify_Troubleshooting_Information,Chrome 95.0.4638.69,,,2021-11-05 10:39:24,2021-11-05 10:40:02,38.409s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-05 10:39:24,2021-11-05 10:39:55,30.329s,PASSED
+"scrollToElement(findTestObject(""Quick_Link_Section_OR/Quick_link_Section_location""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:39:55,2021-11-05 10:39:55,0.371s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Quick_Link_Section_OR/Troubleshooting_information_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:39:55,2021-11-05 10:39:55,0.405s,PASSED
+"click(findTestObject(""Object Repository/Quick_Link_Section_OR/Troubleshooting_information_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:39:55,2021-11-05 10:39:59,3.343s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:39:59,2021-11-05 10:40:00,1.115s,PASSED
+"expectedTitle = ""Troubleshooting Information""",Chrome 95.0.4638.69,,,2021-11-05 10:40:00,2021-11-05 10:40:00,0.000s,PASSED
+actualTitle = getWindowTitle(),Chrome 95.0.4638.69,,,2021-11-05 10:40:00,2021-11-05 10:40:00,0.006s,PASSED
+"verifyMatch(actualTitle, expectedTitle, true)",Chrome 95.0.4638.69,,,2021-11-05 10:40:00,2021-11-05 10:40:00,0.000s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search_Result_Page_OR/SearchCustomHeader_location""), ""Troubleshooting Information"")",Chrome 95.0.4638.69,,,2021-11-05 10:40:00,2021-11-05 10:40:00,0.406s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""))",Chrome 95.0.4638.69,,,2021-11-05 10:40:00,2021-11-05 10:40:01,0.424s,PASSED
+driver = getWebDriver(),Chrome 95.0.4638.69,,,2021-11-05 10:40:01,2021-11-05 10:40:01,0.000s,PASSED
+"thirdRow = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]""))",Chrome 95.0.4638.69,,,2021-11-05 10:40:01,2021-11-05 10:40:01,0.509s,PASSED
+"documentColumn = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]""))",Chrome 95.0.4638.69,,,2021-11-05 10:40:01,2021-11-05 10:40:02,0.308s,PASSED
+totalcms = thirdRow.size(),Chrome 95.0.4638.69,,,2021-11-05 10:40:02,2021-11-05 10:40:02,0.001s,PASSED
+out.println(totalcms),Chrome 95.0.4638.69,,,2021-11-05 10:40:02,2021-11-05 10:40:02,0.000s,PASSED
+"for ([i = 0, i < totalcms, (i++)])",Chrome 95.0.4638.69,,,2021-11-05 10:40:02,2021-11-05 10:40:02,0.674s,PASSED
+,,,,,,,
+Test Cases/TestCase_11_Verify_Video_Library,Chrome 95.0.4638.69,,,2021-11-05 10:40:02,2021-11-05 10:40:38,35.698s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-05 10:40:03,2021-11-05 10:40:30,27.426s,PASSED
+"scrollToElement(findTestObject(""Quick_Link_Section_OR/Quick_link_Section_location""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:40:30,2021-11-05 10:40:31,0.382s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Quick_Link_Section_OR/Video_Library_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:40:31,2021-11-05 10:40:31,0.354s,PASSED
+"click(findTestObject(""Object Repository/Quick_Link_Section_OR/Video_Library_location""))",Chrome 95.0.4638.69,,,2021-11-05 10:40:31,2021-11-05 10:40:34,3.586s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.69,,,2021-11-05 10:40:34,2021-11-05 10:40:36,1.088s,PASSED
+"expectedTitle = ""Video Library""",Chrome 95.0.4638.69,,,2021-11-05 10:40:36,2021-11-05 10:40:36,0.000s,PASSED
+actualTitle = getWindowTitle(),Chrome 95.0.4638.69,,,2021-11-05 10:40:36,2021-11-05 10:40:36,0.007s,PASSED
+"verifyMatch(actualTitle, expectedTitle, true)",Chrome 95.0.4638.69,,,2021-11-05 10:40:36,2021-11-05 10:40:36,0.000s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Search_Result_Page_OR/SearchCustomHeader_location""), ""Video Library"")",Chrome 95.0.4638.69,,,2021-11-05 10:40:36,2021-11-05 10:40:36,0.390s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""))",Chrome 95.0.4638.69,,,2021-11-05 10:40:36,2021-11-05 10:40:36,0.419s,PASSED
+driver = getWebDriver(),Chrome 95.0.4638.69,,,2021-11-05 10:40:36,2021-11-05 10:40:36,0.000s,PASSED
+"thirdRow = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]""))",Chrome 95.0.4638.69,,,2021-11-05 10:40:36,2021-11-05 10:40:37,0.524s,PASSED
+"documentColumn = driver.findElements(By.xpath(""//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]""))",Chrome 95.0.4638.69,,,2021-11-05 10:40:37,2021-11-05 10:40:37,0.297s,PASSED
+totalcms = thirdRow.size(),Chrome 95.0.4638.69,,,2021-11-05 10:40:37,2021-11-05 10:40:37,0.001s,PASSED
+out.println(totalcms),Chrome 95.0.4638.69,,,2021-11-05 10:40:37,2021-11-05 10:40:37,0.000s,PASSED
+"for ([i = 0, i < totalcms, (i++)])",Chrome 95.0.4638.69,,,2021-11-05 10:40:37,2021-11-05 10:40:38,0.712s,PASSED

@@ -1,0 +1,39 @@
+{
+  "keywordFileContentHash": "20CD0D7985963E1339BBC8E2434886F6",
+  "keywordClasses": [
+    {
+      "name": "newPackage2.Dropdown_Items_checker",
+      "keywordMethods": [
+        {
+          "name": "verifyDropdownItem",
+          "parameters": [
+            {
+              "name": "args",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "",
+                "unresolvedClassName": "",
+                "isArray": true,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "componentType": {
+                  "fullClassName": "java.lang.String",
+                  "unresolvedClassName": "String",
+                  "isArray": false,
+                  "isGnericsPlaceHolder": false,
+                  "hasImmutableClassName": false,
+                  "genericsTypes": [],
+                  "errorOnParsing": false
+                },
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

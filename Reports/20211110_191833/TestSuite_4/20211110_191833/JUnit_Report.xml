@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_4" time="229.898" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite_4" tests="1" failures="0" errors="0" time="229.898" skipped="0" timestamp="2021-11-10 19:18:46" hostname="HP - LAPTOP-EDP04F0V" id="Test Suites/TestSuite_4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211110_191833\\TestSuite_4\\20211110_191833"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211110_191833\\TestSuite_4\\20211110_191833\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - LAPTOP-EDP04F0V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="073afd4f6a46698742819814249e895e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_12_Verify_ApplicationNotes_and_its_features" time="226.339" classname="Test Cases/TestCase_12_Verify_ApplicationNotes_and_its_features" status="PASSED">
+         <system-out><![CDATA[2021-11-10 19:18:46 - [TEST_CASE][PASSED] - Test Cases/TestCase_12_Verify_ApplicationNotes_and_its_features: Test Cases/TestCase_12_Verify_ApplicationNotes_and_its_features
+
+2021-11-10 19:18:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-10 19:18:47 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-11-10 19:18:48 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login_Credentials").getValue(1, 1)): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-10 19:18:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-10 19:18:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-10 19:18:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-11-10 19:18:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), findTestData("Login_Credentials").getValue(2, 1)): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-10 19:18:59 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-11-10 19:18:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), findTestData("Login_Credentials").getValue(3, 1)): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-10 19:19:00 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-11-10 19:19:00 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-10 19:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-11-10 19:19:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-10 19:19:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-10 19:19:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-11-10 19:19:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-11-10 19:19:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-10 19:19:21 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-10 19:19:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Resources_Dropdown_OR/Resources_option_location")): Object 'Object Repository/Resources_Dropdown_OR/Resources_option_location' is visible
+
+2021-11-10 19:19:22 - [MESSAGE][PASSED] - Object 'Object Repository/Resources_Dropdown_OR/Resources_option_location' is visible
+
+2021-11-10 19:19:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Resources_Dropdown_OR/Resources_option_location"), "Resources"): Actual text and expected text of test object 'Object Repository/Resources_Dropdown_OR/Resources_option_location' are matched.
+
+2021-11-10 19:19:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Resources_Dropdown_OR/Resources_option_location' are matched.
+
+2021-11-10 19:19:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Resources_Dropdown_OR/Resources_option_location")): Object: 'Object Repository/Resources_Dropdown_OR/Resources_option_location' is hovered
+
+2021-11-10 19:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Resources_Dropdown_OR/Resources_option_location' is hovered
+
+2021-11-10 19:19:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Resources_Dropdown_OR/Application_Notes_location")): Object 'Object Repository/Resources_Dropdown_OR/Application_Notes_location' is visible
+
+2021-11-10 19:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/Resources_Dropdown_OR/Application_Notes_location' is visible
+
+2021-11-10 19:19:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Resources_Dropdown_OR/Application_Notes_location"), "Application Notes"): Actual text and expected text of test object 'Object Repository/Resources_Dropdown_OR/Application_Notes_location' are matched.
+
+2021-11-10 19:19:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Resources_Dropdown_OR/Application_Notes_location' are matched.
+
+2021-11-10 19:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Resources_Dropdown_OR/Application_Notes_location")): Object: 'Object Repository/Resources_Dropdown_OR/Application_Notes_location' is clicked on
+
+2021-11-10 19:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Resources_Dropdown_OR/Application_Notes_location' is clicked on
+
+2021-11-10 19:19:29 - [TEST_STEP][PASSED] - newPackage.newKeyword.verifyQuickLinkOption("Application Notes", "Application Notes"): newPackage.newKeyword.verifyQuickLinkOption is PASSED
+
+2021-11-10 19:19:29 - [MESSAGE][PASSED] - Current window's title is: 'Application Notes'
+
+2021-11-10 19:19:29 - [MESSAGE][PASSED] - Actual text 'Application Notes' and expected text 'Application Notes' are matched  using regular expression
+
+2021-11-10 19:19:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/SearchCustomHeader_location' are matched.
+
+2021-11-10 19:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:32 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:19:33 - [MESSAGE][PASSED] - newPackage.newKeyword.verifyQuickLinkOption is PASSED
+
+2021-11-10 19:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:19:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search_Result_Page_OR/Modified_Date_location")): Object 'Object Repository/Search_Result_Page_OR/Modified_Date_location' is visible
+
+2021-11-10 19:19:35 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Modified_Date_location' is visible
+
+2021-11-10 19:19:35 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Search_Result_Page_OR/Modified_Date_location"), "data-field", "@sflastmodifieddate", 10): Object 'Object Repository/Search_Result_Page_OR/Modified_Date_location' has attribute 'data-field' with value '@sflastmodifieddate'
+
+2021-11-10 19:19:35 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Modified_Date_location' has attribute 'data-field' with value '@sflastmodifieddate'
+
+2021-11-10 19:19:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Relevance_button_location")): Object 'Object Repository/Search_Result_Page_OR/Relevance_button_location' is visible
+
+2021-11-10 19:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Relevance_button_location' is visible
+
+2021-11-10 19:19:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Date_button_location")): Object 'Object Repository/Search_Result_Page_OR/Date_button_location' is visible
+
+2021-11-10 19:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Date_button_location' is visible
+
+2021-11-10 19:19:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Search_Result_Page_OR/Date_button_location"), "aria-checked", "true", 10): Object 'Object Repository/Search_Result_Page_OR/Date_button_location' has attribute 'aria-checked' with value 'true'
+
+2021-11-10 19:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Date_button_location' has attribute 'aria-checked' with value 'true'
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - dates = driver.findElements(By.xpath("//*[@id='coveo-result-list1']/div[2]/div/div/div/div/div[1]/div[2]/span/span")): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - for ([i = 0, i < dates.size() - 1, (i++)]): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:37 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate1 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - formatter1 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date1 = formatter1.parse(sDate1): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - sDate2 = getText().toString(): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - date2 = formatter1.parse(sDate2): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - if (date1.compareTo(date2) >= 0): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - out.println("date 1 is greater than or equal to date 2"): null
+
+2021-11-10 19:19:38 - [TEST_STEP][PASSED] - Thread.sleep(25000): null
+
+2021-11-10 19:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Result_Page_OR/Date_button_location")): Object: 'Object Repository/Search_Result_Page_OR/Date_button_location' is clicked on
+
+2021-11-10 19:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Date_button_location' is clicked on
+
+2021-11-10 19:20:04 - [TEST_STEP][PASSED] - dates1 = driver.findElements(By.xpath("//*[@id='coveo-result-list1']/div[2]/div/div/div/div/div[1]/div[2]/span/span")): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - for ([i = 0, i < dates1.size() - 1, (i++)]): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:07 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate1 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - formatter2 = new java.text.SimpleDateFormat((dd MMM yyyy)): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate1 = formatter2.parse(aDate1): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - j = i + 1: null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - aDate2 = getText().toString(): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - adate2 = formatter2.parse(aDate2): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - if (adate1.compareTo(adate2) <= 0): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - out.println("date 1 is less than or equal to date 2"): null
+
+2021-11-10 19:20:08 - [TEST_STEP][PASSED] - Thread.sleep(25000): null
+
+2021-11-10 19:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Result_Page_OR/Date_button_location")): Object: 'Object Repository/Search_Result_Page_OR/Date_button_location' is clicked on
+
+2021-11-10 19:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Date_button_location' is clicked on
+
+2021-11-10 19:20:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Facet_all_platform")): Object 'Object Repository/Search_Result_Page_OR/Facet_all_platform' is visible
+
+2021-11-10 19:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Facet_all_platform' is visible
+
+2021-11-10 19:20:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Search_Result_Page_OR/Facet_all_platform"), "data-title", "All Platforms", 10): Object 'Object Repository/Search_Result_Page_OR/Facet_all_platform' has attribute 'data-title' with value 'All Platforms'
+
+2021-11-10 19:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Facet_all_platform' has attribute 'data-title' with value 'All Platforms'
+
+2021-11-10 19:20:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Platforms_links")): Object 'Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Platforms_links' is visible
+
+2021-11-10 19:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Platforms_links' is visible
+
+2021-11-10 19:20:37 - [TEST_STEP][PASSED] - actualTitle = getAttribute(findTestObject("Object Repository/Search_Result_Page_OR/1st_option_of_All_Platform"), "data-value").toString(): Attribute 'data-value' of object 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Platform' is: 'Silicon-Package-Board Co-Design'
+
+2021-11-10 19:20:37 - [MESSAGE][PASSED] - Attribute 'data-value' of object 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Platform' is: 'Silicon-Package-Board Co-Design'
+
+2021-11-10 19:20:37 - [TEST_STEP][PASSED] - out.println(actualTitle): null
+
+2021-11-10 19:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Result_Page_OR/1st_option_of_All_Platform")): Object: 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Platform' is clicked on
+
+2021-11-10 19:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Platform' is clicked on
+
+2021-11-10 19:20:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area")): Object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' is visible
+
+2021-11-10 19:20:40 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' is visible
+
+2021-11-10 19:20:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area"), "All Platforms:"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' are matched.
+
+2021-11-10 19:20:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' are matched.
+
+2021-11-10 19:20:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Selected_Platform_value_location")): Object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' is visible
+
+2021-11-10 19:20:42 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' is visible
+
+2021-11-10 19:20:42 - [TEST_STEP][PASSED] - istitleTrue = verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/Selected_Platform_value_location"), actualTitle): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' are matched.
+
+2021-11-10 19:20:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' are matched.
+
+2021-11-10 19:20:42 - [TEST_STEP][PASSED] - out.println(istitleTrue): null
+
+2021-11-10 19:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Result_Page_OR/Clear_option")): Object: 'Object Repository/Search_Result_Page_OR/Clear_option' is clicked on
+
+2021-11-10 19:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Clear_option' is clicked on
+
+2021-11-10 19:20:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Facet_all_product")): Object 'Object Repository/Search_Result_Page_OR/Facet_all_product' is visible
+
+2021-11-10 19:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Facet_all_product' is visible
+
+2021-11-10 19:20:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Search_Result_Page_OR/Facet_all_product"), "data-title", "All Products", 10): Object 'Object Repository/Search_Result_Page_OR/Facet_all_product' has attribute 'data-title' with value 'All Products'
+
+2021-11-10 19:20:45 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Facet_all_product' has attribute 'data-title' with value 'All Products'
+
+2021-11-10 19:20:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Products_links")): Object 'Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Products_links' is visible
+
+2021-11-10 19:20:45 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Products_links' is visible
+
+2021-11-10 19:20:45 - [TEST_STEP][PASSED] - actualTitle1 = getAttribute(findTestObject("Search_Result_Page_OR/1st_option_of_All_Product"), "data-value").toString(): Attribute 'data-value' of object 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Product' is: 'Allegro PCB Editor'
+
+2021-11-10 19:20:46 - [MESSAGE][PASSED] - Attribute 'data-value' of object 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Product' is: 'Allegro PCB Editor'
+
+2021-11-10 19:20:46 - [TEST_STEP][PASSED] - out.println(actualTitle1): null
+
+2021-11-10 19:20:46 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/1st_option_of_All_Product")): Object: 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Product' is clicked on
+
+2021-11-10 19:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Product' is clicked on
+
+2021-11-10 19:20:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area")): Object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' is visible
+
+2021-11-10 19:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' is visible
+
+2021-11-10 19:20:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area"), "All Products:"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' are matched.
+
+2021-11-10 19:20:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' are matched.
+
+2021-11-10 19:20:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Selected_Platform_value_location")): Object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' is visible
+
+2021-11-10 19:20:50 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' is visible
+
+2021-11-10 19:20:50 - [TEST_STEP][PASSED] - istitleTrue1 = verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/Selected_Platform_value_location"), actualTitle1): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' are matched.
+
+2021-11-10 19:20:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' are matched.
+
+2021-11-10 19:20:51 - [TEST_STEP][PASSED] - out.println(istitleTrue1): null
+
+2021-11-10 19:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Result_Page_OR/Clear_option")): Object: 'Object Repository/Search_Result_Page_OR/Clear_option' is clicked on
+
+2021-11-10 19:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Clear_option' is clicked on
+
+2021-11-10 19:20:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Facet_all_tag")): Object 'Object Repository/Search_Result_Page_OR/Facet_all_tag' is visible
+
+2021-11-10 19:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Facet_all_tag' is visible
+
+2021-11-10 19:20:52 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Search_Result_Page_OR/Facet_all_tag"), "data-title", "All Tags", 10): Object 'Object Repository/Search_Result_Page_OR/Facet_all_tag' has attribute 'data-title' with value 'All Tags'
+
+2021-11-10 19:20:53 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Facet_all_tag' has attribute 'data-title' with value 'All Tags'
+
+2021-11-10 19:20:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Tags_links")): Object 'Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Tags_links' is visible
+
+2021-11-10 19:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Dynamic_Navigation_All_Tags_links' is visible
+
+2021-11-10 19:20:54 - [TEST_STEP][PASSED] - actualTitle2 = getAttribute(findTestObject("Search_Result_Page_OR/1st_option_of_All_Tag"), "data-value").toString(): Attribute 'data-value' of object 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Tag' is: 'Spectre'
+
+2021-11-10 19:20:54 - [MESSAGE][PASSED] - Attribute 'data-value' of object 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Tag' is: 'Spectre'
+
+2021-11-10 19:20:54 - [TEST_STEP][PASSED] - out.println(actualTitle2): null
+
+2021-11-10 19:20:54 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/1st_option_of_All_Tag")): Object: 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Tag' is clicked on
+
+2021-11-10 19:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/1st_option_of_All_Tag' is clicked on
+
+2021-11-10 19:20:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area")): Object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' is visible
+
+2021-11-10 19:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' is visible
+
+2021-11-10 19:20:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area"), "All Tags:"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' are matched.
+
+2021-11-10 19:20:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Coveo_breadcrumb_item_area' are matched.
+
+2021-11-10 19:20:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search_Result_Page_OR/Selected_Platform_value_location")): Object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' is visible
+
+2021-11-10 19:20:58 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' is visible
+
+2021-11-10 19:20:58 - [TEST_STEP][PASSED] - istitleTrue2 = verifyElementText(findTestObject("Object Repository/Search_Result_Page_OR/Selected_Platform_value_location"), actualTitle2): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' are matched.
+
+2021-11-10 19:20:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/Selected_Platform_value_location' are matched.
+
+2021-11-10 19:20:58 - [TEST_STEP][PASSED] - out.println(istitleTrue2): null
+
+2021-11-10 19:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Result_Page_OR/Clear_option")): Object: 'Object Repository/Search_Result_Page_OR/Clear_option' is clicked on
+
+2021-11-10 19:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Clear_option' is clicked on
+
+2021-11-10 19:20:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search_Result_Page_OR/Searchbox_in_search_result_page")): Object 'Object Repository/Search_Result_Page_OR/Searchbox_in_search_result_page' is visible
+
+2021-11-10 19:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Searchbox_in_search_result_page' is visible
+
+2021-11-10 19:21:00 - [TEST_STEP][PASSED] - setText(findTestObject("Search_Result_Page_OR/Searchbox_in_search_result_page"), "cadence"): Text 'cadence' is set on object 'Object Repository/Search_Result_Page_OR/Searchbox_in_search_result_page'
+
+2021-11-10 19:21:01 - [MESSAGE][PASSED] - Text 'cadence' is set on object 'Object Repository/Search_Result_Page_OR/Searchbox_in_search_result_page'
+
+2021-11-10 19:21:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Search_Result_Page_OR/Searchbox_in_search_result_page"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search_Result_Page_OR/Searchbox_in_search_result_page'
+
+2021-11-10 19:21:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search_Result_Page_OR/Searchbox_in_search_result_page'
+
+2021-11-10 19:21:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Search_Result_Page_OR/Search_Area"), 5): Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-10 19:21:04 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Search_Area' is visible
+
+2021-11-10 19:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:21:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button"), "Hide all attributes"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' are matched.
+
+2021-11-10 19:21:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' are matched.
+
+2021-11-10 19:21:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search_Result_Page_OR/Attribute_Table_location"), STOP_ON_FAILURE): Object 'Object Repository/Search_Result_Page_OR/Attribute_Table_location' is visible
+
+2021-11-10 19:21:06 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Attribute_Table_location' is visible
+
+2021-11-10 19:21:06 - [TEST_STEP][PASSED] - firstRow = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes']//div[2]//tr[1]/th")): null
+
+2021-11-10 19:21:07 - [TEST_STEP][PASSED] - secondRow = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[2]/td[1]")): null
+
+2021-11-10 19:21:07 - [TEST_STEP][PASSED] - thirdRow1 = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]")): null
+
+2021-11-10 19:21:07 - [TEST_STEP][PASSED] - documentColumn1 = driver.findElements(By.xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[2]")): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - totalcms1 = firstRow.size(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - out.println(totalcms1): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - for ([i = 0, i < totalcms1, (i++)]): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord1 = "Product(s):": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord1 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent1 = verifyMatch(actualWord1, expectedWord1, false): Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Product(s):' and expected text 'Product(s):' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - totalcms2 = secondRow.size(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - out.println(totalcms2): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - for ([i = 0, i < totalcms2, (i++)]): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:08 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord2 = "Article Number:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord2 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent2 = verifyMatch(actualWord2, expectedWord2, false): Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Article Number:' and expected text 'Article Number:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - totalcms3 = thirdRow1.size(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - out.println(totalcms3): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - for ([i = 0, i < totalcms3, (i++)]): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:09 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - expectedWord3 = "Document type:": null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - actualWord3 = getText().toString(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - isdocumentPresent3 = verifyMatch(actualWord3, expectedWord3, false): Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [MESSAGE][PASSED] - Actual text 'Document type:' and expected text 'Document type:' are matched 
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (isdocumentPresent3 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - ithdocumentColumn1 = get(i).getText(): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - configurationWord1 = ithdocumentColumn1.contains("Application Notes"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - if (configurationWord1 == true): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - out.println("Application Notes word is present"): null
+
+2021-11-10 19:21:10 - [TEST_STEP][PASSED] - Thread.sleep(35000): null
+
+2021-11-10 19:21:45 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:21:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button"), "Show all attributes"): Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' are matched.
+
+2021-11-10 19:21:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' are matched.
+
+2021-11-10 19:21:47 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Search_Result_Page_OR/Attribute_Table_location"), STOP_ON_FAILURE): Object 'Object Repository/Search_Result_Page_OR/Attribute_Table_location' is NOT visible
+
+2021-11-10 19:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Result_Page_OR/Attribute_Table_location' is NOT visible
+
+2021-11-10 19:21:48 - [TEST_STEP][PASSED] - click(findTestObject("i_button_OR/1st_i_button_location")): Object: 'Object Repository/i_button_OR/1st_i_button_location' is clicked on
+
+2021-11-10 19:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/i_button_OR/1st_i_button_location' is clicked on
+
+2021-11-10 19:21:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("i_button_OR/1st_attribute_table_location")): Object 'Object Repository/i_button_OR/1st_attribute_table_location' is visible
+
+2021-11-10 19:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/i_button_OR/1st_attribute_table_location' is visible
+
+2021-11-10 19:21:49 - [TEST_STEP][PASSED] - product = xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes']//div[2]//tr[1]/th")).isDisplayed(): null
+
+2021-11-10 19:21:49 - [TEST_STEP][PASSED] - articleNumber = xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[2]/td[1]")).isDisplayed(): null
+
+2021-11-10 19:21:50 - [TEST_STEP][PASSED] - documentType = xpath("//div[@class = 'coveo-result-row coveo-custom-result-attributes' ]//div[2]//tr[3]/td[1]")).isDisplayed(): null
+
+2021-11-10 19:21:50 - [TEST_STEP][PASSED] - out.println(product): null
+
+2021-11-10 19:21:50 - [TEST_STEP][PASSED] - out.println(articleNumber): null
+
+2021-11-10 19:21:50 - [TEST_STEP][PASSED] - out.println(documentType): null
+
+2021-11-10 19:21:50 - [TEST_STEP][PASSED] - expectedValue = false: null
+
+2021-11-10 19:21:50 - [TEST_STEP][PASSED] - for ([i = 1, i <= 24, (i++)]): null
+
+2021-11-10 19:21:50 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:51 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:52 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:53 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:54 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:55 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:56 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:57 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:58 - [TEST_STEP][PASSED] - actualValue = get(i).isDisplayed(): null
+
+2021-11-10 19:21:59 - [TEST_STEP][PASSED] - out.println(actualValue): null
+
+2021-11-10 19:21:59 - [TEST_STEP][PASSED] - b = Boolean.compare(expectedValue, actualValue): null
+
+2021-11-10 19:21:59 - [TEST_STEP][PASSED] - if (b == 0): null
+
+2021-11-10 19:21:59 - [TEST_STEP][PASSED] - out.println("Both values are equal"): null
+
+2021-11-10 19:21:59 - [TEST_STEP][PASSED] - Thread.sleep(20000): null
+
+2021-11-10 19:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/ShowAllAttribute_button")): Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/ShowAllAttribute_button' is clicked on
+
+2021-11-10 19:22:19 - [TEST_STEP][PASSED] - linkTitle = getText(findTestObject("Object Repository/Search_Result_Page_OR/Search_Area")): Text of object 'Object Repository/Search_Result_Page_OR/Search_Area' is: 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview'
+
+2021-11-10 19:22:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Search_Area' is: 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview'
+
+2021-11-10 19:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Search_Result_Page_OR/Search_Area")): Object: 'Object Repository/Search_Result_Page_OR/Search_Area' is clicked on
+
+2021-11-10 19:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Result_Page_OR/Search_Area' is clicked on
+
+2021-11-10 19:22:21 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-11-10 19:22:21 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-11-10 19:22:21 - [TEST_STEP][PASSED] - windowTitle = getWindowTitle(): Current window's title is: 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview'
+
+2021-11-10 19:22:29 - [MESSAGE][PASSED] - Current window's title is: 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview'
+
+2021-11-10 19:22:29 - [TEST_STEP][PASSED] - verifyMatch(windowTitle, linkTitle, true): Actual text 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview' and expected text 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview' are matched  using regular expression
+
+2021-11-10 19:22:29 - [MESSAGE][PASSED] - Actual text 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview' and expected text 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview' are matched  using regular expression
+
+2021-11-10 19:22:29 - [TEST_STEP][PASSED] - actualpageheadText = getText(findTestObject("Object Repository/Search_Result_Page_OR/Pagehead_location")): Text of object 'Object Repository/Search_Result_Page_OR/Pagehead_location' is: 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview'
+
+2021-11-10 19:22:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search_Result_Page_OR/Pagehead_location' is: 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview'
+
+2021-11-10 19:22:31 - [TEST_STEP][PASSED] - verifyMatch(actualpageheadText, linkTitle, true): Actual text 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview' and expected text 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview' are matched  using regular expression
+
+2021-11-10 19:22:31 - [MESSAGE][PASSED] - Actual text 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview' and expected text 'JUG Webinar 2020 - JasperGold Apps and Methodologies Overview' are matched  using regular expression
+
+2021-11-10 19:22:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/i_button_OR/i_button_on_cadence_search_result_page")): Object: 'Object Repository/i_button_OR/i_button_on_cadence_search_result_page' is clicked on
+
+2021-11-10 19:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/i_button_OR/i_button_on_cadence_search_result_page' is clicked on
+
+2021-11-10 19:22:31 - [TEST_STEP][PASSED] - actualWord4 = xpath("//table[@class="drop-table"]/tbody/tr[3]/td[1]")).getText(): null
+
+2021-11-10 19:22:32 - [TEST_STEP][PASSED] - expectedWord4 = "Document Type:": null
+
+2021-11-10 19:22:32 - [TEST_STEP][PASSED] - isdocumentPresent4 = verifyMatch(actualWord4, expectedWord4, true): Actual text 'Document Type:' and expected text 'Document Type:' are matched  using regular expression
+
+2021-11-10 19:22:32 - [MESSAGE][PASSED] - Actual text 'Document Type:' and expected text 'Document Type:' are matched  using regular expression
+
+2021-11-10 19:22:32 - [TEST_STEP][PASSED] - if (isdocumentPresent4 == true): null
+
+2021-11-10 19:22:32 - [TEST_STEP][PASSED] - actualWord5 = xpath("//table[@class="drop-table"]/tbody/tr[3]/td[2]")).getText(): null
+
+2021-11-10 19:22:33 - [TEST_STEP][PASSED] - expectedWord5 = "Application Notes": null
+
+2021-11-10 19:22:33 - [TEST_STEP][PASSED] - isdocumentPresent5 = verifyMatch(actualWord5, expectedWord5, true): Actual text 'Application Notes' and expected text 'Application Notes' are matched  using regular expression
+
+2021-11-10 19:22:33 - [MESSAGE][PASSED] - Actual text 'Application Notes' and expected text 'Application Notes' are matched  using regular expression
+
+2021-11-10 19:22:33 - [TEST_STEP][PASSED] - if (isdocumentPresent5 == true): null
+
+2021-11-10 19:22:33 - [TEST_STEP][PASSED] - out.println("Document type is Application Notes"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-10 19:18:46 - [TEST_SUITE][PASSED] - TestSuite_4: Test Cases/TestCase_12_Verify_ApplicationNotes_and_its_features]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

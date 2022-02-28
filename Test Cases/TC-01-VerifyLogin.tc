@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01-VerifyLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dffdea36-6a41-4461-9539-481372a7b852</testCaseGuid>
+</TestCaseEntity>

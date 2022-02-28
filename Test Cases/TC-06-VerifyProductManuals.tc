@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-06-VerifyProductManuals</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55ab2c95-cb8b-49ad-a633-7328bb120537</testCaseGuid>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Products\']'</defaultValue>
+      <description></description>
+      <id>53c51258-864b-4798-a044-5ad3e277fb63</id>
+      <masked>false</masked>
+      <name>Facet_1_To_Check</name>
+   </variable>
+   <variable>
+      <defaultValue>'All Products'</defaultValue>
+      <description></description>
+      <id>da48cbb0-2612-4719-96c8-2b8c92542c8a</id>
+      <masked>false</masked>
+      <name>Title_Of_The_Facet_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Products\']/ul/li'</defaultValue>
+      <description></description>
+      <id>0304e19e-6788-4261-9441-92bdb05663a7</id>
+      <masked>false</masked>
+      <name>Links_Of_The_Facet_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Products\']/ul/li[4]'</defaultValue>
+      <description></description>
+      <id>dc6e8ae0-d2e4-4f90-96cb-efaee671cc2e</id>
+      <masked>false</masked>
+      <name>Facet_1_Link_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spectre'</defaultValue>
+      <description></description>
+      <id>2c1e5a53-41c6-4d23-a204-d2810c0ddcf4</id>
+      <masked>false</masked>
+      <name>Searched_Text_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'SPECTRE'</defaultValue>
+      <description></description>
+      <id>603f58ea-bb39-423b-bd14-6559d6501432</id>
+      <masked>false</masked>
+      <name>Searched_Text_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Groups\']'</defaultValue>
+      <description></description>
+      <id>270c123f-9d99-46a9-a759-3740773dfc4c</id>
+      <masked>false</masked>
+      <name>Facet_2_To_Check</name>
+   </variable>
+   <variable>
+      <defaultValue>'All Groups'</defaultValue>
+      <description></description>
+      <id>10856a70-07ae-4c9d-8ac3-cde652dddf6f</id>
+      <masked>false</masked>
+      <name>Title_Of_The_Facet_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Groups\']/ul/li'</defaultValue>
+      <description></description>
+      <id>42222105-cca3-4f8a-ab67-7e581def523a</id>
+      <masked>false</masked>
+      <name>Links_Of_The_Facet_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Groups\']/ul/li[4]'</defaultValue>
+      <description></description>
+      <id>20de5312-a0cc-4136-964c-ae71402c57d8</id>
+      <masked>false</masked>
+      <name>Facet_2_Link_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'ADE'</defaultValue>
+      <description></description>
+      <id>55d81426-b7d0-4444-9ca9-d58156233168</id>
+      <masked>false</masked>
+      <name>Searched_Text_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Assembler'</defaultValue>
+      <description></description>
+      <id>fc8037d1-730c-445f-80ca-796c7a442a69</id>
+      <masked>false</masked>
+      <name>Searched_Text_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Document Types\']'</defaultValue>
+      <description></description>
+      <id>6c8322af-84d8-4745-96c9-adcdd5e00e5e</id>
+      <masked>false</masked>
+      <name>Facet_3_To_Check</name>
+   </variable>
+   <variable>
+      <defaultValue>'All Document Types'</defaultValue>
+      <description></description>
+      <id>2b36c42e-86c8-4af3-9f0b-58e008880c9d</id>
+      <masked>false</masked>
+      <name>Title_Of_The_Facet_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Document Types\']/ul/li'</defaultValue>
+      <description></description>
+      <id>d17676a6-4ee6-4ea3-a283-319582b55689</id>
+      <masked>false</masked>
+      <name>Links_Of_The_Facet_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-title = \'All Document Types\']/ul/li[1]'</defaultValue>
+      <description></description>
+      <id>e124d0dd-06c3-4665-8fbb-659445d1ac38</id>
+      <masked>false</masked>
+      <name>Facet_3_Link_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'User'</defaultValue>
+      <description></description>
+      <id>1cbe4deb-a266-46c5-9cbe-49c71812069f</id>
+      <masked>false</masked>
+      <name>Searched_Text_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Guide'</defaultValue>
+      <description></description>
+      <id>46a9c631-d172-4bc0-8a17-4d012d54f19f</id>
+      <masked>false</masked>
+      <name>Searched_Text_6</name>
+   </variable>
+</TestCaseEntity>

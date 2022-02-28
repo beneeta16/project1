@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-02-VerifyHomePageOptions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0efc5b3-978d-4a14-8383-c0a1b97c65cd</testCaseGuid>
+   <variable>
+      <defaultValue>'//div[@class = \'homeBoxes container\']//a[@href= \'/apex/Coveo_CommunitySearch#t=WhatsNew\']'</defaultValue>
+      <description></description>
+      <id>f1da3aab-a99d-4a18-8e3f-96941f63a4f0</id>
+      <masked>false</masked>
+      <name>Option1ToFind</name>
+   </variable>
+   <variable>
+      <defaultValue>'What\'s new'</defaultValue>
+      <description></description>
+      <id>cdecd23f-10de-4583-a6a8-a88b191ef27e</id>
+      <masked>false</masked>
+      <name>title1ToVerify</name>
+   </variable>
+   <variable>
+      <defaultValue>'Whats New'</defaultValue>
+      <description></description>
+      <id>cb456f70-a1d8-4ed3-88ca-397f7f39a39d</id>
+      <masked>false</masked>
+      <name>DocumentType1ToVerify</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class = \'homeBoxes container\']//a[@href= \'/apex/Coveo_CommunitySearch#t=TroubleshootingInformation\']'</defaultValue>
+      <description></description>
+      <id>0b2f3d5f-6589-4f62-ad4e-aa7514a0a3bf</id>
+      <masked>false</masked>
+      <name>Option2ToFind</name>
+   </variable>
+   <variable>
+      <defaultValue>'Troubleshooting Information'</defaultValue>
+      <description></description>
+      <id>241fb7f5-ccbb-402d-98f5-0b7bc345343f</id>
+      <masked>false</masked>
+      <name>title2ToVerify</name>
+   </variable>
+   <variable>
+      <defaultValue>'Troubleshooting Info'</defaultValue>
+      <description></description>
+      <id>45ac5b32-4a75-4bff-b70b-e99d77386c2c</id>
+      <masked>false</masked>
+      <name>DocumentType2ToVerify</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class = \'homeBoxes container\']//a[@href= \'/apex/Coveo_CommunitySearch#t=VideoLibrary\']'</defaultValue>
+      <description></description>
+      <id>935a2670-0ffe-4a23-8b03-8ad3d0bbcfe7</id>
+      <masked>false</masked>
+      <name>Option3ToFind</name>
+   </variable>
+   <variable>
+      <defaultValue>'Video Library'</defaultValue>
+      <description></description>
+      <id>a9fb3d5f-2791-4a95-98d9-e85c23f742ba</id>
+      <masked>false</masked>
+      <name>title3ToVerify</name>
+   </variable>
+   <variable>
+      <defaultValue>'Videos'</defaultValue>
+      <description></description>
+      <id>222df343-9eb9-4655-8b42-06a200e14caf</id>
+      <masked>false</masked>
+      <name>DocumentType3ToVerify</name>
+   </variable>
+</TestCaseEntity>

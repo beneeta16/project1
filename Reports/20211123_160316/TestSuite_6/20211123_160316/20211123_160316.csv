@@ -1,0 +1,109 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_6,Chrome 96.0.4664.45,,,2021-11-23 16:03:28,2021-11-23 16:08:32,5m - 4.255s,PASSED
+,,,,,,,
+Test Cases/TC-06-VerifyProductManuals,Chrome 96.0.4664.45,,,2021-11-23 16:03:28,2021-11-23 16:08:32,5m - 3.920s,PASSED
+"callTestCase(findTestCase(""TC-01-VerifyLogin""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.45,Login to the Website,,2021-11-23 16:03:30,2021-11-23 16:04:03,33.280s,PASSED
+maximizeWindow(),Chrome 96.0.4664.45,Maximize the window,,2021-11-23 16:04:03,2021-11-23 16:04:03,0.174s,PASSED
+"verifyElementVisible(findTestObject(""Resources_Dropdown_OR/Resources_option_location""))",Chrome 96.0.4664.45,Verify Resources option is present and visible,,2021-11-23 16:04:03,2021-11-23 16:04:04,0.438s,PASSED
+"verifyElementText(findTestObject(""Resources_Dropdown_OR/Resources_option_location""), ""Resources"")",Chrome 96.0.4664.45,,,2021-11-23 16:04:04,2021-11-23 16:04:04,0.419s,PASSED
+"mouseOver(findTestObject(""Resources_Dropdown_OR/Resources_option_location""))",Chrome 96.0.4664.45,Mouse hover on Resources,,2021-11-23 16:04:04,2021-11-23 16:04:05,0.630s,PASSED
+driver = getWebDriver(),Chrome 96.0.4664.45,Verify Product Manuals is present and visible,,2021-11-23 16:04:05,2021-11-23 16:04:05,0.001s,PASSED
+"optionToBeChecked = driver.findElement(By.xpath(""//*[@id='navbarCollapse']/ul/li[4]/div/ul/li[4]/a""))",Chrome 96.0.4664.45,,,2021-11-23 16:04:05,2021-11-23 16:04:05,0.301s,PASSED
+isOptionVisible = optionToBeChecked.isDisplayed(),Chrome 96.0.4664.45,,,2021-11-23 16:04:05,2021-11-23 16:04:05,0.038s,PASSED
+out.println(isOptionVisible),Chrome 96.0.4664.45,,,2021-11-23 16:04:05,2021-11-23 16:04:05,0.011s,PASSED
+"isthewordPresent = getText().contains(""Product Manuals"")",Chrome 96.0.4664.45,,,2021-11-23 16:04:05,2021-11-23 16:04:05,0.028s,PASSED
+out.println(isthewordPresent),Chrome 96.0.4664.45,,,2021-11-23 16:04:05,2021-11-23 16:04:05,0.000s,PASSED
+optionToBeChecked.click(),Chrome 96.0.4664.45,Click on Product Manuals,,2021-11-23 16:04:05,2021-11-23 16:04:10,4.835s,PASSED
+actualTitle = getWindowTitle(),Chrome 96.0.4664.45,To verify the window title,,2021-11-23 16:04:10,2021-11-23 16:04:10,0.040s,PASSED
+"verifyMatch(actualTitle, ""Product Manuals"", true)",Chrome 96.0.4664.45,,,2021-11-23 16:04:10,2021-11-23 16:04:10,0.014s,PASSED
+"verifyElementText(findTestObject(""Search_Result_Page_OR/Pagehead_location""), ""Product Manuals"")",Chrome 96.0.4664.45,"To verify whether ""Product Manuals"" word is present in Page head or not",,2021-11-23 16:04:10,2021-11-23 16:04:11,0.597s,PASSED
+"isBreadcrumbPresent = xpath(""//ul[@class = 'breadcrumb']"")).isDisplayed()",Chrome 96.0.4664.45,To verify breadcrumb is present and visible,,2021-11-23 16:04:11,2021-11-23 16:04:11,0.323s,PASSED
+out.println(isBreadcrumbPresent),Chrome 96.0.4664.45,,,2021-11-23 16:04:11,2021-11-23 16:04:11,0.001s,PASSED
+"isElement1Present = getText().contains(""Support Home"")",Chrome 96.0.4664.45,,,2021-11-23 16:04:11,2021-11-23 16:04:11,0.300s,PASSED
+out.println(isElement1Present),Chrome 96.0.4664.45,,,2021-11-23 16:04:11,2021-11-23 16:04:11,0.000s,PASSED
+"isElement2Present = getText().contains(""Resources"")",Chrome 96.0.4664.45,,,2021-11-23 16:04:11,2021-11-23 16:04:12,0.309s,PASSED
+out.println(isElement2Present),Chrome 96.0.4664.45,,,2021-11-23 16:04:12,2021-11-23 16:04:12,0.000s,PASSED
+"isElement3Present = getText().contains(""Product Manuals"")",Chrome 96.0.4664.45,,,2021-11-23 16:04:12,2021-11-23 16:04:12,0.286s,PASSED
+out.println(isElement3Present),Chrome 96.0.4664.45,,,2021-11-23 16:04:12,2021-11-23 16:04:12,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Search_Result_Page_OR/Product_Manuals_release_links""))",Chrome 96.0.4664.45,"To verify whether ""Release links"" are present and visible or not",,2021-11-23 16:04:12,2021-11-23 16:04:12,0.417s,PASSED
+"isSearchboxPresent = xpath(""//*[@id='srch-term1']"")).isDisplayed()",Chrome 96.0.4664.45,To verify searchbox is present and visible,,2021-11-23 16:04:12,2021-11-23 16:04:13,0.341s,PASSED
+out.println(isSearchboxPresent),Chrome 96.0.4664.45,,,2021-11-23 16:04:13,2021-11-23 16:04:13,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Searchbar_OR/Searchbox_in_product_manual_page""), ""innovus"")",Chrome 96.0.4664.45,Search innovus in the searchbar,,2021-11-23 16:04:13,2021-11-23 16:04:13,0.787s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbox_in_product_manual_page""), Keys.chord(ENTER))",Chrome 96.0.4664.45,Press Enter,,2021-11-23 16:04:13,2021-11-23 16:04:16,2.832s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 96.0.4664.45,Wait for page to load,,2021-11-23 16:04:16,2021-11-23 16:04:22,6.199s,PASSED
+"highlightedTextinlink = driver.findElements(By.xpath(""//div[@class = 'coveo-result-list-container coveo-list-layout-container']//a[1]""))",Chrome 96.0.4664.45,Verify relevant search results are displayed and they are of pub type links,,2021-11-23 16:04:22,2021-11-23 16:04:23,0.512s,PASSED
+"for ([i = 0, i < highlightedTextinlink.size(), (i++)])",Chrome 96.0.4664.45,,,2021-11-23 16:04:23,2021-11-23 16:04:23,0.015s,PASSED
+"for ([i = 0, i < 25, (i++)])",Chrome 96.0.4664.45,,,2021-11-23 16:04:23,2021-11-23 16:04:23,0.530s,PASSED
+Thread.sleep(5000),Chrome 96.0.4664.45,,,2021-11-23 16:04:23,2021-11-23 16:04:28,5.009s,PASSED
+back(),Chrome 96.0.4664.45,,,2021-11-23 16:04:28,2021-11-23 16:04:32,3.935s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Search_Result_Page_OR/Product_Manuals_release_links""), 5)",Chrome 96.0.4664.45,,,2021-11-23 16:04:32,2021-11-23 16:04:34,1.270s,PASSED
+"click(findTestObject(""Object Repository/Search_Result_Page_OR/Product_Manuals_release_links""))",Chrome 96.0.4664.45,Click on any Release link,,2021-11-23 16:04:34,2021-11-23 16:04:36,2.773s,PASSED
+"isBreadcrumb2Present = xpath(""//ul[@class = 'breadcrumb']"")).isDisplayed()",Chrome 96.0.4664.45,To verify breadcrumb is present and visible,,2021-11-23 16:04:36,2021-11-23 16:04:39,2.326s,PASSED
+out.println(isBreadcrumbPresent),Chrome 96.0.4664.45,,,2021-11-23 16:04:39,2021-11-23 16:04:39,0.000s,PASSED
+"isTerm1Present = getText().contains(""Support Home"")",Chrome 96.0.4664.45,,,2021-11-23 16:04:39,2021-11-23 16:04:39,0.289s,PASSED
+out.println(isTerm1Present),Chrome 96.0.4664.45,,,2021-11-23 16:04:39,2021-11-23 16:04:39,0.001s,PASSED
+"isTerm2Present = getText().contains(""Resources"")",Chrome 96.0.4664.45,,,2021-11-23 16:04:39,2021-11-23 16:04:39,0.319s,PASSED
+out.println(isTerm2Present),Chrome 96.0.4664.45,,,2021-11-23 16:04:39,2021-11-23 16:04:39,0.000s,PASSED
+"isTerm3Present = getText().contains(""Product Manuals"")",Chrome 96.0.4664.45,,,2021-11-23 16:04:39,2021-11-23 16:04:40,0.306s,PASSED
+out.println(isTerm3Present),Chrome 96.0.4664.45,,,2021-11-23 16:04:40,2021-11-23 16:04:40,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Searchbar_OR/Searchbox_in_releaseLinks_Page""))",Chrome 96.0.4664.45,Verify the searchbox and its placeholder,,2021-11-23 16:04:40,2021-11-23 16:04:40,0.411s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Searchbar_OR/Searchbox_in_releaseLinks_Page""), ""placeholder"", ""Search manuals for IC 6.1.8"", 5)",Chrome 96.0.4664.45,,,2021-11-23 16:04:40,2021-11-23 16:04:41,0.440s,PASSED
+"links = driver.findElements(By.xpath(""//*[@id='coveo-result-list1']//a[1]""))",Chrome 96.0.4664.45,Verify PDF icon is present in every search result link,,2021-11-23 16:04:41,2021-11-23 16:04:41,0.294s,PASSED
+"pdfIcons = driver.findElements(By.xpath(""//i[@class = 'fa fa-file-pdf-o']""))",Chrome 96.0.4664.45,,,2021-11-23 16:04:41,2021-11-23 16:04:41,0.297s,PASSED
+"for ([i = 0, i < pdfIcons.size(), (i++)])",Chrome 96.0.4664.45,,,2021-11-23 16:04:41,2021-11-23 16:04:45,3.629s,PASSED
+Thread.sleep(20000),Chrome 96.0.4664.45,,,2021-11-23 16:04:45,2021-11-23 16:05:05,20.012s,PASSED
+"titleOfLink = getAttribute(""title"").toString()",Chrome 96.0.4664.45,Verify Clicking on a link opens the page on a new tab,,2021-11-23 16:05:05,2021-11-23 16:05:05,0.015s,PASSED
+out.println(titleOfLink),Chrome 96.0.4664.45,,,2021-11-23 16:05:05,2021-11-23 16:05:05,0.000s,PASSED
+get(0).click(),Chrome 96.0.4664.45,,,2021-11-23 16:05:05,2021-11-23 16:05:05,0.126s,PASSED
+switchToWindowIndex(1),Chrome 96.0.4664.45,,,2021-11-23 16:05:05,2021-11-23 16:05:05,0.034s,PASSED
+Thread.sleep(10000),Chrome 96.0.4664.45,,,2021-11-23 16:05:05,2021-11-23 16:05:15,10.003s,PASSED
+windowTitle = getWindowTitle(),Chrome 96.0.4664.45,,,2021-11-23 16:05:15,2021-11-23 16:05:15,0.013s,PASSED
+out.println(windowTitle),Chrome 96.0.4664.45,,,2021-11-23 16:05:15,2021-11-23 16:05:15,0.000s,PASSED
+isTitlePresent = windowTitle.contains(titleOfLink),Chrome 96.0.4664.45,,,2021-11-23 16:05:15,2021-11-23 16:05:15,0.001s,PASSED
+out.println(isTitlePresent),Chrome 96.0.4664.45,,,2021-11-23 16:05:15,2021-11-23 16:05:15,0.000s,PASSED
+closeWindowIndex(1),Chrome 96.0.4664.45,,,2021-11-23 16:05:15,2021-11-23 16:05:15,0.114s,PASSED
+switchToWindowIndex(0),Chrome 96.0.4664.45,,,2021-11-23 16:05:15,2021-11-23 16:05:15,0.015s,PASSED
+Thread.sleep(5000),Chrome 96.0.4664.45,,,2021-11-23 16:05:15,2021-11-23 16:05:20,5.012s,PASSED
+initialTabs = new java.util.ArrayList(driver.getWindowHandles()),Chrome 96.0.4664.45,Verify clicking on any PDF icon present on the links opens the page on a new tab,,2021-11-23 16:05:20,2021-11-23 16:05:20,0.001s,PASSED
+"out.println(""Initial No. of tabs: "" + initialTabs.size())",Chrome 96.0.4664.45,,,2021-11-23 16:05:20,2021-11-23 16:05:20,0.000s,PASSED
+get(0).click(),Chrome 96.0.4664.45,,,2021-11-23 16:05:20,2021-11-23 16:05:20,0.108s,PASSED
+Thread.sleep(5000),Chrome 96.0.4664.45,,,2021-11-23 16:05:20,2021-11-23 16:05:25,5.013s,PASSED
+currentTabs = new java.util.ArrayList(driver.getWindowHandles()),Chrome 96.0.4664.45,,,2021-11-23 16:05:25,2021-11-23 16:05:25,0.002s,PASSED
+"out.println(""Now No. of tabs are: "" + currentTabs.size())",Chrome 96.0.4664.45,,,2021-11-23 16:05:25,2021-11-23 16:05:25,0.000s,PASSED
+closeWindowIndex(1),Chrome 96.0.4664.45,,,2021-11-23 16:05:25,2021-11-23 16:05:25,0.090s,PASSED
+switchToWindowIndex(0),Chrome 96.0.4664.45,,,2021-11-23 16:05:25,2021-11-23 16:05:25,0.027s,PASSED
+Thread.sleep(5000),Chrome 96.0.4664.45,,,2021-11-23 16:05:25,2021-11-23 16:05:30,5.003s,PASSED
+"xpath(""//div[@aria-label = 'Quick View']"")).click()",Chrome 96.0.4664.45,Verify only relevant search results are displayed,,2021-11-23 16:05:30,2021-11-23 16:05:31,0.403s,PASSED
+"header = driver.findElement(By.xpath(""//h1/div/div[2]/a""))",Chrome 96.0.4664.45,,,2021-11-23 16:05:31,2021-11-23 16:05:32,1.612s,PASSED
+"out.println(""Modal Dialog text: "" + header.getText())",Chrome 96.0.4664.45,,,2021-11-23 16:05:32,2021-11-23 16:05:32,0.016s,PASSED
+switchTo().frame(11),Chrome 96.0.4664.45,,,2021-11-23 16:05:32,2021-11-23 16:05:32,0.036s,PASSED
+"searchedText = driver.findElement(By.xpath(""//h5/center""))",Chrome 96.0.4664.45,,,2021-11-23 16:05:32,2021-11-23 16:05:32,0.050s,PASSED
+"isTextPresent = getText().contains(""Product Version IC6.1.8"")",Chrome 96.0.4664.45,,,2021-11-23 16:05:32,2021-11-23 16:05:33,0.023s,PASSED
+out.println(isTextPresent),Chrome 96.0.4664.45,,,2021-11-23 16:05:33,2021-11-23 16:05:33,0.000s,PASSED
+Thread.sleep(5000),Chrome 96.0.4664.45,,,2021-11-23 16:05:33,2021-11-23 16:05:38,5.002s,PASSED
+switchTo().defaultContent(),Chrome 96.0.4664.45,,,2021-11-23 16:05:38,2021-11-23 16:05:38,0.016s,PASSED
+"xpath(""/html/body/div[19]/div/header/span"")).click()",Chrome 96.0.4664.45,,,2021-11-23 16:05:38,2021-11-23 16:05:38,0.361s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Search_Result_Page_OR/Alphabet_location""))",Chrome 96.0.4664.45,Verify Alphabet section is present and visible,,2021-11-23 16:05:38,2021-11-23 16:05:38,0.495s,PASSED
+"alphabets = driver.findElements(By.xpath(""//ul[@class = 'coveo-custom-glossary-content']/li/a""))",Chrome 96.0.4664.45,Verify 26 options in the name of (A - Z) are present ,,2021-11-23 16:05:38,2021-11-23 16:05:39,0.304s,PASSED
+"c = ""A""",Chrome 96.0.4664.45,,,2021-11-23 16:05:39,2021-11-23 16:05:39,0.000s,PASSED
+"for ([i = 0, i < 26, (i++)])",Chrome 96.0.4664.45,,,2021-11-23 16:05:39,2021-11-23 16:05:39,0.385s,PASSED
+"for ([i = 0, i < links.size(), (i++)])",Chrome 96.0.4664.45,Verify search results are alphabetically sorted,,2021-11-23 16:05:39,2021-11-23 16:05:42,3.216s,PASSED
+Thread.sleep(135000),Chrome 96.0.4664.45,,,2021-11-23 16:05:42,2021-11-23 16:07:57,2m - 15.015s,PASSED
+j = driver,Chrome 96.0.4664.45,Verify clicking on a letter takes the user to that particular section,,2021-11-23 16:07:57,2021-11-23 16:07:57,0.001s,PASSED
+"v = j.executeScript(""return window.pageYOffset;"")",Chrome 96.0.4664.45,,,2021-11-23 16:07:57,2021-11-23 16:07:57,0.032s,PASSED
+"out.println(""Scroll position after launch: "" + v)",Chrome 96.0.4664.45,,,2021-11-23 16:07:57,2021-11-23 16:07:57,0.000s,PASSED
+"idValue = xpath(""//li[@class = 'letter available'][7]//a"")).getText()",Chrome 96.0.4664.45,,,2021-11-23 16:07:57,2021-11-23 16:07:58,0.322s,PASSED
+"xpath(""//li[@class = 'letter available'][7]//a"")).click()",Chrome 96.0.4664.45,,,2021-11-23 16:07:58,2021-11-23 16:07:58,0.332s,PASSED
+Thread.sleep(2000),Chrome 96.0.4664.45,,,2021-11-23 16:07:58,2021-11-23 16:08:00,2.005s,PASSED
+js = driver,Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.000s,PASSED
+"scrollLocation = js.executeScript(""return window.pageYOffset;"")",Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.020s,PASSED
+"out.println(""Scroll position after scrolling upto an element: "" + scrollLocation)",Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.000s,PASSED
+pBlock = driver.findElement(By.id(idValue)),Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.304s,PASSED
+classname = pBlock.getLocation(),Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.001s,PASSED
+ycordi = classname.getY(),Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.016s,PASSED
+"out.println(""Element's Position from top "" + ycordi + "" pixels."")",Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.000s,PASSED
+"isLocationSame = verifyEqual(scrollLocation, ycordi)",Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.012s,PASSED
+out.println(isLocationSame),Chrome 96.0.4664.45,,,2021-11-23 16:08:00,2021-11-23 16:08:00,0.000s,PASSED
+"callTestCase(findTestCase(""CommonTestCases/TC-DynamicNavigationLinks""), [""FacetToCheck"":Facet_1_To_Check, ""TitleOfTheFacet"":Title_Of_The_Facet_1, ""LinksOfTheFacet"":Links_Of_The_Facet_1, ""LinkToCheck"":Facet_1_Link_4, ... ], STOP_ON_FAILURE)",Chrome 96.0.4664.45,Verify the dynamic navigation links,,2021-11-23 16:08:00,2021-11-23 16:08:19,18.572s,PASSED
+"callTestCase(findTestCase(""CommonTestCases/TC-DynamicNavigationLinks""), [""FacetToCheck"":Facet_2_To_Check, ""TitleOfTheFacet"":Title_Of_The_Facet_2, ""LinksOfTheFacet"":Links_Of_The_Facet_2, ""LinkToCheck"":Facet_2_Link_4, ... ], STOP_ON_FAILURE)",Chrome 96.0.4664.45,,,2021-11-23 16:08:19,2021-11-23 16:08:25,6.278s,PASSED
+"callTestCase(findTestCase(""CommonTestCases/TC-DynamicNavigationLinks""), [""FacetToCheck"":Facet_3_To_Check, ""TitleOfTheFacet"":Title_Of_The_Facet_3, ""LinksOfTheFacet"":Links_Of_The_Facet_3, ""LinkToCheck"":Facet_3_Link_1, ... ], STOP_ON_FAILURE)",Chrome 96.0.4664.45,,,2021-11-23 16:08:25,2021-11-23 16:08:32,6.715s,PASSED

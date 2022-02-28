@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_1" time="258.968" tests="8" failures="0" errors="0">
+   <testsuite name="TestSuite_1" tests="8" failures="0" errors="0" time="258.968" skipped="0" timestamp="2021-10-25 15:18:36" hostname="HP - LAPTOP-EDP04F0V" id="Test Suites/TestSuite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211025_151822\\TestSuite_1\\20211025_151822"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\Project_1\\Reports\\20211025_151822\\TestSuite_1\\20211025_151822\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - LAPTOP-EDP04F0V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="94d3748c7d4ca631edde0f2bc2e0836a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_1_Login" time="35.716" classname="Test Cases/TestCase_1_Login" status="PASSED">
+         <system-out><![CDATA[2021-10-25 15:18:37 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-25 15:18:37 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:18:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-25 15:18:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-25 15:18:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:18:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:18:48 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:18:49 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:19:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-25 15:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_2_Dropdown/1_Verify_Default_Selected_Option" time="31.797" classname="Test Cases/TestCase_2_Dropdown/1_Verify_Default_Selected_Option" status="PASSED">
+         <system-out><![CDATA[2021-10-25 15:19:12 - [TEST_CASE][PASSED] - Test Cases/TestCase_2_Dropdown/1_Verify_Default_Selected_Option: Test Cases/TestCase_2_Dropdown/1_Verify_Default_Selected_Option
+
+2021-10-25 15:19:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:19:13 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-25 15:19:13 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:19:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-25 15:19:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-25 15:19:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-25 15:19:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:19:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:19:22 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:19:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:19:23 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:19:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-25 15:19:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:19:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:19:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Box_Position"), "All Content"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:19:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_2_Dropdown/2_Verify_AllOptions_Of_Dropdown" time="31.176" classname="Test Cases/TestCase_2_Dropdown/2_Verify_AllOptions_Of_Dropdown" status="PASSED">
+         <system-out><![CDATA[2021-10-25 15:19:44 - [TEST_CASE][PASSED] - Test Cases/TestCase_2_Dropdown/2_Verify_AllOptions_Of_Dropdown: Test Cases/TestCase_2_Dropdown/2_Verify_AllOptions_Of_Dropdown
+
+2021-10-25 15:19:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:19:45 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-25 15:19:45 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:19:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-25 15:19:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-25 15:19:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-25 15:19:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:19:54 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:19:55 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:20:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:20:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-25 15:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:20:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:20:12 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Box_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Item1_Position"), "All"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item1_Position' are matched.
+
+2021-10-25 15:20:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item1_Position' are matched.
+
+2021-10-25 15:20:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Item2_Position"), "All Content"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item2_Position' are matched.
+
+2021-10-25 15:20:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item2_Position' are matched.
+
+2021-10-25 15:20:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Item3_Position"), "Product Manuals"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item3_Position' are matched.
+
+2021-10-25 15:20:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item3_Position' are matched.
+
+2021-10-25 15:20:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Item4_Position"), "Articles and AppNotes"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item4_Position' are matched.
+
+2021-10-25 15:20:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item4_Position' are matched.
+
+2021-10-25 15:20:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Item5_Position"), "Training Courses"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item5_Position' are matched.
+
+2021-10-25 15:20:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item5_Position' are matched.
+
+2021-10-25 15:20:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Item6_Position"), "Community"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item6_Position' are matched.
+
+2021-10-25 15:20:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item6_Position' are matched.
+
+2021-10-25 15:20:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Item7_Position"), "Cases"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item7_Position' are matched.
+
+2021-10-25 15:20:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Item7_Position' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_2_Dropdown/3_Verify_Selection_Of_Alloptions" time="39.153" classname="Test Cases/TestCase_2_Dropdown/3_Verify_Selection_Of_Alloptions" status="PASSED">
+         <system-out><![CDATA[2021-10-25 15:20:15 - [TEST_CASE][PASSED] - Test Cases/TestCase_2_Dropdown/3_Verify_Selection_Of_Alloptions: Test Cases/TestCase_2_Dropdown/3_Verify_Selection_Of_Alloptions
+
+2021-10-25 15:20:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:20:16 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-25 15:20:16 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:20:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-25 15:20:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-25 15:20:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-25 15:20:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:20:25 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:20:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:20:25 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:20:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:20:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-25 15:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:20:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:20:44 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Box_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:44 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Item1_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Item1_Position' is clicked on
+
+2021-10-25 15:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Item1_Position' is clicked on
+
+2021-10-25 15:20:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Box_Position"), "All"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:46 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Box_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:46 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Item2_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Item2_Position' is clicked on
+
+2021-10-25 15:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Item2_Position' is clicked on
+
+2021-10-25 15:20:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Box_Position"), "All Content"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:47 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Box_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:48 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Item3_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Item3_Position' is clicked on
+
+2021-10-25 15:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Item3_Position' is clicked on
+
+2021-10-25 15:20:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Box_Position"), "Product Manuals"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:49 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Box_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:49 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Item4_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Item4_Position' is clicked on
+
+2021-10-25 15:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Item4_Position' is clicked on
+
+2021-10-25 15:20:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Box_Position"), "Articles and AppNotes"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:50 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Box_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:50 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Item5_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Item5_Position' is clicked on
+
+2021-10-25 15:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Item5_Position' is clicked on
+
+2021-10-25 15:20:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Box_Position"), "Training Courses"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:51 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Box_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:52 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Item6_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Item6_Position' is clicked on
+
+2021-10-25 15:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Item6_Position' is clicked on
+
+2021-10-25 15:20:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Box_Position"), "Community"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:53 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Box_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Box_Position' is clicked on
+
+2021-10-25 15:20:53 - [TEST_STEP][PASSED] - click(findTestObject("DropDown_OR/Dropdown_Item7_Position")): Object: 'Object Repository/DropDown_OR/Dropdown_Item7_Position' is clicked on
+
+2021-10-25 15:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/DropDown_OR/Dropdown_Item7_Position' is clicked on
+
+2021-10-25 15:20:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("DropDown_OR/Dropdown_Box_Position"), "Cases"): Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.
+
+2021-10-25 15:20:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DropDown_OR/Dropdown_Box_Position' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_3_Searchbox/1_Verify_SearchBar_Position" time="27.265" classname="Test Cases/TestCase_3_Searchbox/1_Verify_SearchBar_Position" status="PASSED">
+         <system-out><![CDATA[2021-10-25 15:20:55 - [TEST_CASE][PASSED] - Test Cases/TestCase_3_Searchbox/1_Verify_SearchBar_Position: Test Cases/TestCase_3_Searchbox/1_Verify_SearchBar_Position
+
+2021-10-25 15:20:55 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:20:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-25 15:20:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-25 15:20:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-25 15:21:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:21:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:21:03 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:21:03 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:21:04 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:21:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Searchbox_OR/Searchbar_position"), 30): Object 'Object Repository/Searchbox_OR/Searchbar_position' is present
+
+2021-10-25 15:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/Searchbox_OR/Searchbar_position' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_3_Searchbox/2_Verify_Searchbar_Placeholder" time="27.342" classname="Test Cases/TestCase_3_Searchbox/2_Verify_Searchbar_Placeholder" status="PASSED">
+         <system-out><![CDATA[2021-10-25 15:21:22 - [TEST_CASE][PASSED] - Test Cases/TestCase_3_Searchbox/2_Verify_Searchbar_Placeholder: Test Cases/TestCase_3_Searchbox/2_Verify_Searchbar_Placeholder
+
+2021-10-25 15:21:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:21:22 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-25 15:21:22 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:21:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-25 15:21:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-25 15:21:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-25 15:21:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:21:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:21:31 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:21:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:21:31 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:21:31 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:21:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:21:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-25 15:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:21:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:21:49 - [TEST_STEP][PASSED] - expectedPlaceholder = "Start your search here...": null
+
+2021-10-25 15:21:49 - [TEST_STEP][PASSED] - placeholder = getAttribute(findTestObject("Searchbox_OR/Searchbar_position"), "placeholder"): Attribute 'placeholder' of object 'Object Repository/Searchbox_OR/Searchbar_position' is: 'Start your search here...'
+
+2021-10-25 15:21:49 - [MESSAGE][PASSED] - Attribute 'placeholder' of object 'Object Repository/Searchbox_OR/Searchbar_position' is: 'Start your search here...'
+
+2021-10-25 15:21:49 - [TEST_STEP][PASSED] - if (expectedPlaceholder != placeholder): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_3_Searchbox/3_Verify_Searchbar_Tooltip" time="28.917" classname="Test Cases/TestCase_3_Searchbox/3_Verify_Searchbar_Tooltip" status="PASSED">
+         <system-out><![CDATA[2021-10-25 15:21:49 - [TEST_CASE][PASSED] - Test Cases/TestCase_3_Searchbox/3_Verify_Searchbar_Tooltip: Test Cases/TestCase_3_Searchbox/3_Verify_Searchbar_Tooltip
+
+2021-10-25 15:21:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:21:50 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-25 15:21:50 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:21:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-25 15:21:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-25 15:21:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-25 15:21:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:21:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:21:58 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:21:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:21:59 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:21:59 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:22:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:22:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-25 15:22:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:22:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:22:18 - [TEST_STEP][PASSED] - expectedTooltip = "Insert a query. Press enter to send": null
+
+2021-10-25 15:22:18 - [TEST_STEP][PASSED] - actualTooltip = getAttribute(findTestObject("Searchbox_OR/Searchbar_position"), "title"): Attribute 'title' of object 'Object Repository/Searchbox_OR/Searchbar_position' is: 'Insert a query. Press enter to send'
+
+2021-10-25 15:22:18 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Searchbox_OR/Searchbar_position' is: 'Insert a query. Press enter to send'
+
+2021-10-25 15:22:18 - [TEST_STEP][PASSED] - verifyMatch(actualTooltip, expectedTooltip, true): Actual text 'Insert a query. Press enter to send' and expected text 'Insert a query. Press enter to send' are matched  using regular expression
+
+2021-10-25 15:22:18 - [MESSAGE][PASSED] - Actual text 'Insert a query. Press enter to send' and expected text 'Insert a query. Press enter to send' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_3_Searchbox/4_Verify_MagnifyingGlass_Icon" time="35.82" classname="Test Cases/TestCase_3_Searchbox/4_Verify_MagnifyingGlass_Icon" status="PASSED">
+         <system-out><![CDATA[2021-10-25 15:22:18 - [TEST_CASE][PASSED] - Test Cases/TestCase_3_Searchbox/4_Verify_MagnifyingGlass_Icon: Test Cases/TestCase_3_Searchbox/4_Verify_MagnifyingGlass_Icon
+
+2021-10-25 15:22:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TestCase_1_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:22:19 - [TEST_CASE][PASSED] - Test Cases/TestCase_1_Login: Test Cases/TestCase_1_Login
+
+2021-10-25 15:22:19 - [TEST_STEP][PASSED] - openBrowser("https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"): Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:22:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-25 15:22:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-25 15:22:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-25 15:22:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en'
+
+2021-10-25 15:22:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/UserName_Field"), "auto_swhostiduser1.en@cssotest.com"): Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:22:27 - [MESSAGE][PASSED] - Text 'auto_swhostiduser1.en@cssotest.com' is set on object 'Object Repository/Login_OR/UserName_Field'
+
+2021-10-25 15:22:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Password_Field"), "Cadence123"): Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:22:28 - [MESSAGE][PASSED] - Text 'Cadence123' is set on object 'Object Repository/Login_OR/Password_Field'
+
+2021-10-25 15:22:28 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Login_Button_Field")): Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Login_Button_Field' is clicked on
+
+2021-10-25 15:22:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_OR/UserLogo"), 0): Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:22:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-25 15:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/UserLogo' is present
+
+2021-10-25 15:22:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TestCase_1_Login' successfully
+
+2021-10-25 15:22:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Searchbox_OR/MagnifyingGlass_Position"), 0): Object 'Object Repository/Searchbox_OR/MagnifyingGlass_Position' is present
+
+2021-10-25 15:22:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-25 15:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/Searchbox_OR/MagnifyingGlass_Position' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-25 15:18:36 - [TEST_SUITE][PASSED] - TestSuite_1: Test Cases/TestCase_3_Searchbox/4_Verify_MagnifyingGlass_Icon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

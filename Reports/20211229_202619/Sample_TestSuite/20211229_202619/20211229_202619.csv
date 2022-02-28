@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample_TestSuite,Chrome 96.0.4664.110,,,2021-12-29 20:26:34,2021-12-29 20:28:20,1m - 46.077s,FAILED
+,,,,,,,
+Test Cases/Sample_TestCase,Chrome 96.0.4664.110,,,2021-12-29 20:26:34,2021-12-29 20:27:05,31.247s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-29 20:26:34,2021-12-29 20:26:37,2.903s,PASSED
+"navigateToUrl(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 96.0.4664.110,,,2021-12-29 20:26:37,2021-12-29 20:26:42,5.047s,PASSED
+"setText(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrm_d5fe3a""), ""auto_swhostiduser1.en@cssotest.com"")",Chrome 96.0.4664.110,,,2021-12-29 20:26:42,2021-12-29 20:26:45,2.387s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrm_44e477""), ""NNnfzuesOJ+Y/ucBaoSabA=="")",Chrome 96.0.4664.110,,,2021-12-29 20:26:45,2021-12-29 20:26:45,0.518s,PASSED
+"click(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 96.0.4664.110,,,2021-12-29 20:26:45,2021-12-29 20:27:01,15.813s,PASSED
+"click(findTestObject(""Object Repository/Sample_TestCase_OR/Page_Support Home/img_Account Validation Alert_img img-respon_9637b2""))",Chrome 96.0.4664.110,,,2021-12-29 20:27:01,2021-12-29 20:27:03,2.387s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_OR/Page_Support Home/div_My Account (1)""))",Chrome 96.0.4664.110,,,2021-12-29 20:27:03,2021-12-29 20:27:04,0.979s,PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-29 20:27:04,2021-12-29 20:27:05,0.723s,PASSED
+,,,,,,,
+Test Cases/Sample_TestCase_2,Chrome 96.0.4664.110,,,2021-12-29 20:27:05,2021-12-29 20:27:33,28.219s,PASSED
+"openBrowser(""https://hfx-cadence.cs197.force.com/UnifiedSSO/CadenceApplicationLoginScreen?appcode=cos&langcode=en"")",Chrome 96.0.4664.110,,,2021-12-29 20:27:05,2021-12-29 20:27:10,4.653s,PASSED
+"setText(findTestObject(""Sample_TestCase_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdiptTxt""), ""auto_swhostiduser1.en@cssotest.com"")",Chrome 96.0.4664.110,,,2021-12-29 20:27:10,2021-12-29 20:27:12,2.168s,PASSED
+"setText(findTestObject(""Sample_TestCase_2_OR/Page_Cadence Login/input_Academic users please contact_pgIdfrmIdj_id107""), ""Cadence123"")",Chrome 96.0.4664.110,,,2021-12-29 20:27:12,2021-12-29 20:27:13,0.705s,PASSED
+"click(findTestObject(""Sample_TestCase_2_OR/Page_Cadence Login/input_Terms of Use_pgIdfrmIdj_id114""))",Chrome 96.0.4664.110,,,2021-12-29 20:27:13,2021-12-29 20:27:29,15.876s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_2_OR/Page_Support Home/img_Account Validation Alert_img img-responsive col-xs-3  nopadding""))",Chrome 96.0.4664.110,,,2021-12-29 20:27:29,2021-12-29 20:27:31,2.536s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_2_OR/Page_Support Home/div_AllAll ContentProduct ManualsArticles and AppNotesTraining CoursesCommunityCasesAll Content""))",Chrome 96.0.4664.110,,,2021-12-29 20:27:31,2021-12-29 20:27:32,0.377s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_2_OR/Page_Support Home/Searchbox""))",Chrome 96.0.4664.110,,,2021-12-29 20:27:32,2021-12-29 20:27:32,0.375s,PASSED
+"verifyElementVisible(findTestObject(""Sample_TestCase_2_OR/Page_Support Home/svg_Search""))",Chrome 96.0.4664.110,,,2021-12-29 20:27:32,2021-12-29 20:27:33,0.424s,PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-29 20:27:33,2021-12-29 20:27:33,0.704s,PASSED
+,,,,,,,
+Test Cases/Sample TestCase_3,Chrome 96.0.4664.110,,,2021-12-29 20:27:33,2021-12-29 20:28:20,46.256s,FAILED
+"for ([row = 1, row <= findTestData(""TestData_1"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-29 20:27:34,2021-12-29 20:28:20,45.851s,FAILED

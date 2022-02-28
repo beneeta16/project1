@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "FC674E2219267719605B643D5E535930",
+  "keywordClasses": [
+    {
+      "name": "newPackage.newKeyword",
+      "keywordMethods": [
+        {
+          "name": "verifyQuickLinkOption",
+          "parameters": [
+            {
+              "name": "wordtoVerify",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "requiredTitle",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

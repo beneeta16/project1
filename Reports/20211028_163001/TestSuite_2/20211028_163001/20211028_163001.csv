@@ -1,0 +1,105 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_2,Chrome 95.0.4638.54,,,2021-10-28 16:30:12,2021-10-28 16:35:52,5m - 39.511s,PASSED
+,,,,,,,
+Test Cases/TestCase_4_Search_Functionality/1_Search_by_clicking_Search_Icon,Chrome 95.0.4638.54,,,2021-10-28 16:30:13,2021-10-28 16:30:55,42.103s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:30:13,2021-10-28 16:30:47,33.285s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:30:47,2021-10-28 16:30:47,0.874s,PASSED
+"click(findTestObject(""Searchbar_OR/MagnifyingGlass_Position""))",Chrome 95.0.4638.54,,,2021-10-28 16:30:47,2021-10-28 16:30:49,1.313s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:30:49,2021-10-28 16:30:54,5.700s,PASSED
+"expectedTitle = ""Search Results""",Chrome 95.0.4638.54,,,2021-10-28 16:30:54,2021-10-28 16:30:54,0.000s,PASSED
+actualTitle = getWindowTitle(),Chrome 95.0.4638.54,,,2021-10-28 16:30:54,2021-10-28 16:30:54,0.026s,PASSED
+"verifyMatch(actualTitle, expectedTitle, true)",Chrome 95.0.4638.54,,,2021-10-28 16:30:54,2021-10-28 16:30:55,0.023s,PASSED
+"verifyElementText(findTestObject(""Search_Result_Page_OR/ProductManual_word_location""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:30:55,2021-10-28 16:30:55,0.371s,PASSED
+,,,,,,,
+Test Cases/TestCase_4_Search_Functionality/2_Search_by_pressing_Enter,Chrome 95.0.4638.54,,,2021-10-28 16:30:55,2021-10-28 16:31:33,37.770s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:30:55,2021-10-28 16:31:25,29.615s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:31:25,2021-10-28 16:31:26,0.808s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbar_position""), Keys.chord(ENTER))",Chrome 95.0.4638.54,,,2021-10-28 16:31:26,2021-10-28 16:31:27,1.276s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:31:27,2021-10-28 16:31:32,5.161s,PASSED
+"expectedTitle = ""Search Results""",Chrome 95.0.4638.54,,,2021-10-28 16:31:32,2021-10-28 16:31:32,0.000s,PASSED
+actualTitle = getWindowTitle(),Chrome 95.0.4638.54,,,2021-10-28 16:31:32,2021-10-28 16:31:32,0.007s,PASSED
+"verifyMatch(actualTitle, expectedTitle, true)",Chrome 95.0.4638.54,,,2021-10-28 16:31:32,2021-10-28 16:31:32,0.000s,PASSED
+"verifyElementText(findTestObject(""Search_Result_Page_OR/ProductManual_word_location""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:31:32,2021-10-28 16:31:33,0.394s,PASSED
+,,,,,,,
+Test Cases/TestCase_4_Search_Functionality/3_Verify_OpeningOfNewTab_OnClick,Chrome 95.0.4638.54,,,2021-10-28 16:31:33,2021-10-28 16:32:21,48.323s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:31:33,2021-10-28 16:32:02,28.869s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:32:02,2021-10-28 16:32:03,0.834s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbar_position""), Keys.chord(ENTER))",Chrome 95.0.4638.54,,,2021-10-28 16:32:03,2021-10-28 16:32:04,1.249s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:32:04,2021-10-28 16:32:10,6.372s,PASSED
+"linkTitle = getText(findTestObject(""Object Repository/Search_Result_Page_OR/Search_Area""))",Chrome 95.0.4638.54,,,2021-10-28 16:32:10,2021-10-28 16:32:11,0.387s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/Search_Area""))",Chrome 95.0.4638.54,,,2021-10-28 16:32:11,2021-10-28 16:32:11,0.437s,PASSED
+switchToWindowIndex(1),Chrome 95.0.4638.54,,,2021-10-28 16:32:11,2021-10-28 16:32:11,0.049s,PASSED
+windowTitle = getWindowTitle(),Chrome 95.0.4638.54,,,2021-10-28 16:32:11,2021-10-28 16:32:21,9.677s,PASSED
+"verifyMatch(windowTitle, linkTitle, true)",Chrome 95.0.4638.54,,,2021-10-28 16:32:21,2021-10-28 16:32:21,0.004s,PASSED
+,,,,,,,
+Test Cases/TestCase_4_Search_Functionality/4_Verify_Show_All_Attribute_button,Chrome 95.0.4638.54,,,2021-10-28 16:32:21,2021-10-28 16:33:02,40.965s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:32:21,2021-10-28 16:32:50,28.828s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:32:50,2021-10-28 16:32:51,0.864s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbar_position""), Keys.chord(ENTER))",Chrome 95.0.4638.54,,,2021-10-28 16:32:51,2021-10-28 16:32:52,1.373s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:32:52,2021-10-28 16:32:57,4.865s,PASSED
+"verifyElementVisible(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""), STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:32:57,2021-10-28 16:32:58,0.380s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""))",Chrome 95.0.4638.54,,,2021-10-28 16:32:58,2021-10-28 16:32:58,0.434s,PASSED
+"verifyElementText(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""), ""Hide all attributes"")",Chrome 95.0.4638.54,,,2021-10-28 16:32:58,2021-10-28 16:33:00,1.756s,PASSED
+"verifyElementVisible(findTestObject(""Search_Result_Page_OR/Attribute_Table_location""), STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:33:00,2021-10-28 16:33:00,0.386s,PASSED
+"verifyElementAttributeValue(findTestObject(""Search_Result_Page_OR/Product_attribute_location""), ""data-caption"", ""Product(s):"", 20)",Chrome 95.0.4638.54,,,2021-10-28 16:33:00,2021-10-28 16:33:01,0.397s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""))",Chrome 95.0.4638.54,,,2021-10-28 16:33:01,2021-10-28 16:33:01,0.441s,PASSED
+"verifyElementText(findTestObject(""Search_Result_Page_OR/ShowAllAttribute_button""), ""Show all attributes"")",Chrome 95.0.4638.54,,,2021-10-28 16:33:01,2021-10-28 16:33:02,0.511s,PASSED
+"verifyElementNotVisible(findTestObject(""Search_Result_Page_OR/Attribute_Table_location""), STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:33:02,2021-10-28 16:33:02,0.366s,PASSED
+,,,,,,,
+Test Cases/TestCase_4_Search_Functionality/5_Verify_Results_Per_Page,Chrome 95.0.4638.54,,,2021-10-28 16:33:02,2021-10-28 16:33:46,44.150s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:33:02,2021-10-28 16:33:30,27.744s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:33:30,2021-10-28 16:33:31,0.828s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbar_position""), Keys.chord(ENTER))",Chrome 95.0.4638.54,,,2021-10-28 16:33:31,2021-10-28 16:33:33,2.373s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:33:33,2021-10-28 16:33:38,4.511s,PASSED
+"verifyElementVisible(findTestObject(""Search_Result_Page_OR/Results_Per_Page_location""), STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:33:38,2021-10-28 16:33:38,0.402s,PASSED
+"resultNumber = [""10"", ""25"", ""50"", ""100""]",Chrome 95.0.4638.54,,,2021-10-28 16:33:38,2021-10-28 16:33:38,0.000s,PASSED
+"actualNumber = [getText(findTestObject(""Search_Result_Page_OR/Result_Number/Result_Number_10"")), getText(findTestObject(""Search_Result_Page_OR/Result_Number/Result_Number_25"")), getText(findTestObject(""Search_Result_Page_OR/Result_Number/Result_Number_50"")), getText(findTestObject(""Search_Result_Page_OR/Result_Number/Result_Number_100""))]",Chrome 95.0.4638.54,,,2021-10-28 16:33:38,2021-10-28 16:33:40,1.510s,PASSED
+"for ([i = 0, i <= 3, (i++)])",Chrome 95.0.4638.54,,,2021-10-28 16:33:40,2021-10-28 16:33:40,0.005s,PASSED
+"verifyElementAttributeValue(findTestObject(""Search_Result_Page_OR/Result_Number/Default_number_location""), ""aria-checked"", ""true"", 10)",Chrome 95.0.4638.54,,,2021-10-28 16:33:40,2021-10-28 16:33:40,0.390s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/Result_Number/Result_Number_10""))",Chrome 95.0.4638.54,,,2021-10-28 16:33:40,2021-10-28 16:33:41,0.463s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:33:41,2021-10-28 16:33:45,4.733s,PASSED
+"verifyElementText(findTestObject(""Search_Result_Page_OR/Result_summary_section""), ""10"")",Chrome 95.0.4638.54,,,2021-10-28 16:33:45,2021-10-28 16:33:46,0.389s,PASSED
+expectedNumber = 10,Chrome 95.0.4638.54,,,2021-10-28 16:33:46,2021-10-28 16:33:46,0.000s,PASSED
+"numberofLink = findWebElements(findTestObject(""Object Repository/Search_Result_Page_OR/LinkLocation_on_Search_Result_Page""), 30)",Chrome 95.0.4638.54,,,2021-10-28 16:33:46,2021-10-28 16:33:46,0.369s,PASSED
+actualNumber = numberofLink.size(),Chrome 95.0.4638.54,,,2021-10-28 16:33:46,2021-10-28 16:33:46,0.001s,PASSED
+"verifyEqual(actualNumber, expectedNumber)",Chrome 95.0.4638.54,,,2021-10-28 16:33:46,2021-10-28 16:33:46,0.013s,PASSED
+,,,,,,,
+Test Cases/TestCase_4_Search_Functionality/6_Verify_More_Pages,Chrome 95.0.4638.54,,,2021-10-28 16:33:46,2021-10-28 16:34:27,40.718s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:33:46,2021-10-28 16:34:14,27.241s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:34:14,2021-10-28 16:34:18,4.709s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbar_position""), Keys.chord(ENTER))",Chrome 95.0.4638.54,,,2021-10-28 16:34:18,2021-10-28 16:34:21,2.074s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:34:21,2021-10-28 16:34:25,4.735s,PASSED
+"totalResult = getText(findTestObject(""Object Repository/Search_Result_Page_OR/Total_number_of_results""))",Chrome 95.0.4638.54,,,2021-10-28 16:34:25,2021-10-28 16:34:26,0.391s,PASSED
+"resultperPage = getText(findTestObject(""Object Repository/Search_Result_Page_OR/Result_summary_section""))",Chrome 95.0.4638.54,,,2021-10-28 16:34:26,2021-10-28 16:34:26,0.389s,PASSED
+if (totalResult > resultperPage),Chrome 95.0.4638.54,,,2021-10-28 16:34:26,2021-10-28 16:34:26,0.382s,PASSED
+"verifyElementAttributeValue(findTestObject(""Search_Result_Page_OR/Default_PageNo_location""), ""aria-pressed"", ""true"", 10)",Chrome 95.0.4638.54,,,2021-10-28 16:34:26,2021-10-28 16:34:27,0.416s,PASSED
+,,,,,,,
+Test Cases/TestCase_4_Search_Functionality/Verify_clicking_on_more_pages,Chrome 95.0.4638.54,,,2021-10-28 16:34:27,2021-10-28 16:35:11,43.700s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:34:27,2021-10-28 16:34:56,28.956s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:34:56,2021-10-28 16:34:57,0.815s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbar_position""), Keys.chord(ENTER))",Chrome 95.0.4638.54,,,2021-10-28 16:34:57,2021-10-28 16:34:59,2.418s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:34:59,2021-10-28 16:35:05,5.566s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/Page_2_location""))",Chrome 95.0.4638.54,,,2021-10-28 16:35:05,2021-10-28 16:35:05,0.400s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:35:05,2021-10-28 16:35:10,4.400s,PASSED
+"defaultpageNumber = findWebElement(findTestObject(""Object Repository/Search_Result_Page_OR/Selected_result_number"")).getText()",Chrome 95.0.4638.54,,,2021-10-28 16:35:10,2021-10-28 16:35:10,0.389s,PASSED
+defaultNumber = defaultpageNumber.toInteger(),Chrome 95.0.4638.54,,,2021-10-28 16:35:10,2021-10-28 16:35:10,0.001s,PASSED
+expected_search_result_Number = defaultNumber + 1.toString(),Chrome 95.0.4638.54,,,2021-10-28 16:35:10,2021-10-28 16:35:10,0.000s,PASSED
+"actual_search_result_Number = getText(findTestObject(""Object Repository/Search_Result_Page_OR/Starting_search_result_number""))",Chrome 95.0.4638.54,,,2021-10-28 16:35:10,2021-10-28 16:35:11,0.393s,PASSED
+"verifyMatch(actual_search_result_Number, expected_search_result_Number, false)",Chrome 95.0.4638.54,,,2021-10-28 16:35:11,2021-10-28 16:35:11,0.001s,PASSED
+,,,,,,,
+Test Cases/TestCase_4_Search_Functionality/Verify_prev_next_button,Chrome 95.0.4638.54,,,2021-10-28 16:35:11,2021-10-28 16:35:52,41.443s,PASSED
+"callTestCase(findTestCase(""TestCase_1_Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:35:11,2021-10-28 16:35:40,29.050s,PASSED
+"setText(findTestObject(""Searchbar_OR/Searchbar_position""), ""product manuals"")",Chrome 95.0.4638.54,,,2021-10-28 16:35:40,2021-10-28 16:35:41,0.868s,PASSED
+"sendKeys(findTestObject(""Searchbar_OR/Searchbar_position""), Keys.chord(ENTER))",Chrome 95.0.4638.54,,,2021-10-28 16:35:41,2021-10-28 16:35:42,1.274s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:35:42,2021-10-28 16:35:46,4.191s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/Page_2_location""))",Chrome 95.0.4638.54,,,2021-10-28 16:35:46,2021-10-28 16:35:47,0.454s,PASSED
+"waitForElementVisible(findTestObject(""Search_Result_Page_OR/Search_Area""), 5)",Chrome 95.0.4638.54,,,2021-10-28 16:35:47,2021-10-28 16:35:48,1.140s,PASSED
+"verifyElementVisible(findTestObject(""Search_Result_Page_OR/Previous_button_location""), STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:35:48,2021-10-28 16:35:48,0.387s,PASSED
+"verifyElementVisible(findTestObject(""Search_Result_Page_OR/Next_button_location""), STOP_ON_FAILURE)",Chrome 95.0.4638.54,,,2021-10-28 16:35:48,2021-10-28 16:35:49,0.404s,PASSED
+"verifyElementAttributeValue(findTestObject(""Search_Result_Page_OR/Page_2_location""), ""aria-pressed"", ""true"", 10)",Chrome 95.0.4638.54,,,2021-10-28 16:35:49,2021-10-28 16:35:49,0.421s,PASSED
+"currentpageNumber = getText(findTestObject(""Object Repository/Search_Result_Page_OR/Page_2_location""))",Chrome 95.0.4638.54,,,2021-10-28 16:35:49,2021-10-28 16:35:50,0.405s,PASSED
+convert_current_page_number = currentpageNumber.toInteger() - 1,Chrome 95.0.4638.54,,,2021-10-28 16:35:50,2021-10-28 16:35:50,0.000s,PASSED
+expected_current_page_number = convert_current_page_number.toString(),Chrome 95.0.4638.54,,,2021-10-28 16:35:50,2021-10-28 16:35:50,0.000s,PASSED
+"click(findTestObject(""Search_Result_Page_OR/Previous_button_location""))",Chrome 95.0.4638.54,,,2021-10-28 16:35:50,2021-10-28 16:35:50,0.481s,PASSED
+"actual_current_page_number = findWebElement(findTestObject(""Object Repository/Search_Result_Page_OR/Active_page_number"")).getText()",Chrome 95.0.4638.54,,,2021-10-28 16:35:50,2021-10-28 16:35:52,1.971s,PASSED
+"verifyMatch(actual_current_page_number, expected_current_page_number, false)",Chrome 95.0.4638.54,,,2021-10-28 16:35:52,2021-10-28 16:35:52,0.002s,PASSED
